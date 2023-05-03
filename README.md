@@ -12,6 +12,17 @@ https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoCol
 )
 <!-- # TODO: add linkedin profile link ang gmail link -->
 
+### My technologies and tools
+
+<p style="text-align:center;">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,python,r,md,flask,fastapi,git,github,githubactions,mysql,sqlite,docker,aws,azure,gcp,heroku,pytorch,tensorflow,postman,vscode,idea" />
+  </a>
+</p>
+
+[//]: # (# TODO: missing: opencv, windows, keras, pandas, numpy, scipy, spacy, scikit-learn, matplotlib, pycharm)
+
+
 ### This is my relevant experience
 
 - TBD
@@ -31,15 +42,6 @@ https://img.shields.io/badge/Coursera-%230056D2.svg?style=for-the-badge&logo=Cou
 https://img.shields.io/badge/edX-%2302262B.svg?style=for-the-badge&logo=edX&logoColor=white
 )
 
-### My technologies and tools
-
-<p style="text-align:center;">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,python,r,md,flask,fastapi,git,github,githubactions,mysql,sqlite,docker,aws,azure,gcp,heroku,pytorch,tensorflow,postman,vscode,idea" />
-  </a>
-</p>
-
-[//]: # (# TODO: missing: opencv, windows, keras, pandas, numpy, scipy, spacy, scikit-learn, matplotlib, pycharm)
 
 ### My Projects
 
