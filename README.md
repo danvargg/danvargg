@@ -4,7 +4,7 @@ My name is Daniel Vargas, and I'm an Industrial Engineer turned into Data Scient
 I have over 16 years of overall experience. I've dedicated 6+ of these years to solving problems through applied Data
 Science, Machine Learning, and Deep Learning.
 
-# TODO: add more to bio.
+[//]: # (# TODO: add more to bio.)
 
 [![Linkedin: danvargg](
 https://img.shields.io/badge/-danvargg-blue?style=flat-square&logo=Linkedin&logoColor=white&link=linkedin.com/in/danvargg/
