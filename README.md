@@ -13,15 +13,17 @@ https://img.shields.io/badge/-danvargg-blue?style=flat-square&logo=Linkedin&logo
 https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
 )
 
-# TODO: add email link
+[//]: # (# TODO: add email link)
 
 ### My technologies and tools
 
-# TODO: sequence: linux, windows, python, r, markdown, flask, fastapi, postman, git, github, github actions, mysql, 
-# sqlite, docker, aws, azure, gcp, heroku, opencv, numpy, matplotlib, scipy, spacy, pandas, sklearn, keras, tensorflow, pytorch, vscode, pycharm, 
-# copilot, openai, jira, confluence, trello
+[//]: # (# TODO: sequence: linux, windows, python, r, markdown, flask, fastapi, postman, git, github, github actions, mysql, )
 
-# TODO: change badges colors to match theme
+[//]: # (# sqlite, docker, aws, azure, gcp, heroku, opencv, numpy, matplotlib, scipy, spacy, pandas, sklearn, keras, tensorflow, pytorch, vscode, pycharm, )
+
+[//]: # (# copilot, openai, jira, confluence, trello)
+
+[//]: # (# TODO: change badges colors to match theme)
 
 ![Linux](
 https://img.shields.io/badge/linux-3670A0?style=flat&logo=linux&logoColor=black
