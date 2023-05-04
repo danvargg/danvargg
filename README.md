@@ -93,10 +93,11 @@ https://github.com/antonkomarev/github-profile-views-counter
 - MEng. Engineering Management - University of Ottawa (2014)
 - BEng. Industrial Engineering - Instituto Tecnológico de Santo Domingo (2008)
 
-You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf).  You can also find all my certificates [here]().
+You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf).  You can also find all my certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
 
 ### My Relevant Projects (WIP)
 
+[//]: # (# TODO: center most used languages on github.)
 [//]: # (# TODO: show projects as table?)
 [//]: # (# TODO: check all jira tickets?)
 [//]: # (# TODO: delete repos: dend, mlend, mysql-001, folio, opencv1-py, opencv2-py)
