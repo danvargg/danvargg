@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 My name is Daniel Vargas, and I'm an Industrial Engineer turned into Data Scientist and Machine Learning Engineer.
-I have over 16 years of overall experience. I've dedicated 6+ of these years to solving problems through applied Data
+I have 16+ years of overall experience. I've dedicated 6+ of these years to solving problems through applied Data
 Science, Machine Learning, and Deep Learning.
 
 [//]: # (# TODO: add more to bio.)
@@ -71,13 +71,31 @@ https://github.com/antonkomarev/github-profile-views-counter
 
 ### This is my relevant experience
 
-- TBD
+- Director, AI Development - [Innodem Neurosciences](https://www.linkedin.com/company/innodem-neurosciences/) (2021 - 2023)
+- Data Science Consultant (Contract) - [Master Data Analysis](https://www.linkedin.com/company/master-data-analysis/) (2020 - 2023)
+- AI / Deep Learning Engineer (Contract) - [Innodem Neurosciences](https://www.linkedin.com/company/innodem-neurosciences/) (2019 - 2021)
+- Machine Learning Engineer (Contract) - [Crowdbotics](https://www.linkedin.com/company/crowdbotics/) (2017 - 2018)
+- Data Scientist (Contract) - [baseline.io](https://www.linkedin.com/company/baseline-io/) (2017 - 2017)
+- Data Scientist (Contract) - [SciBase.co](https://www.linkedin.com/company/scibase-inc./) (2017 - 2017)
 
-<!-- # TODO: link to full resume -->
+### My Relevant Education and Certifications
 
-### My Education and Certifications
 
-- TBD
+- Machine Learning Engineering for Production (MLOps) Specialization - DeepLEarning.AI (2021)
+- Computer Vision II - (2021)
+- Computer Vision I - (2020)
+- (Certification) Azure Data Scientist Associate - Microsoft (2020)
+- Data Engineering Nanodegree - Udacity (2020)
+- Machine Learning Engineer Nanodegree - Udacity (2019)
+- Microsoft Professional Program in Artificial Intelligence - Microsoft (2018)
+- Deep Learning Specialization - DeepLEarning.AI (2018)
+- Data Science Specialization - Johns Hopkins University Advanced Academic Programs (2017)
+- MEng. Engineering Management - University of Ottawa (2014)
+- BEng. Industrial Engineering - Instituto Tecnológico de Santo Domingo (2008)
+
+[//]: # (# TODO: add certificates, choose how to link it)
+
+You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf).  You can also find all my certificates [here]().
 
 ### My Relevant Projects
 
