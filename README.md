@@ -130,5 +130,7 @@ You can also find all my certificates [here](https://github.com/danvargg/danvarg
 - dlai - neural machine translation (2018)
 - dlai - face recognition (2018)
 - dlai - style transfer???? (2018)
-- Next word prediction: A Natural Language Processing (NLP) application that predicts the following word in a prompt. | [Code](https://github.com/danvargg/r-next-word) | [Application](https://danvargg.shinyapps.io/shiny/) (2017)
-- R - montreal cameras (2017)
+- **Next word prediction:** A `Natural Language Processing (NLP)` application that predicts the following word in a prompt. | [Project](https://github.com/danvargg/r-next-word) | [Application](https://danvargg.shinyapps.io/shiny/) (2017)
+- **Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation cameras (PTZ) in Montreal, in real-time. | [Project]() | [Application](https://rpubs.com/danvargg/geomap) (2017)
+
+[//]: # (# TODO: organize projects in a way that an image can be added.)
