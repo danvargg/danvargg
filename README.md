@@ -11,8 +11,6 @@ https://img.shields.io/badge/-danvargg-blue?style=flat-square&logo=Linkedin&logo
 )](https://www.linkedin.com/in/danvargg/)   [![GMail: danvargg](
 https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmail&logoColor=white&link=mailto:danvargg@gmil.com
 )](mailto:danvargg@gmil.com
-)   [![](https://komarev.com/ghpvc/?username=danvargg&color=yellow)](
-https://github.com/antonkomarev/github-profile-views-counter
 )
 
 ### My Tech Stack
@@ -82,8 +80,8 @@ https://github.com/antonkomarev/github-profile-views-counter
 ### My Relevant Education and Certifications
 
 - Machine Learning Engineering for Production (MLOps) Specialization - DeepLEarning.AI (2021)
-- Computer Vision II - (2021)
-- Computer Vision I - (2020)
+- Computer Vision II - OpenCV (2021)
+- Computer Vision I - OpenCV (2020)
 - (Certification) Azure Data Scientist Associate - Microsoft (2020)
 - Data Engineering Nanodegree - Udacity (2020)
 - Machine Learning Engineer Nanodegree - Udacity (2019)
@@ -129,8 +127,10 @@ You can also find all my certificates [here](https://github.com/danvargg/danvarg
 - dlai - car detection (2018)
 - dlai - neural machine translation (2018)
 - dlai - face recognition (2018)
-- dlai - style transfer???? (2018)
+- dlai - style transfer (2018)
 - **Next word prediction:** A `Natural Language Processing (NLP)` application that predicts the following word in a prompt. | [Project](https://github.com/danvargg/r-next-word) | [Application](https://danvargg.shinyapps.io/shiny/) (2017)
 - **Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation cameras (PTZ) in Montreal, in real-time. | [Project]() | [Application](https://rpubs.com/danvargg/geomap) (2017)
 
-[//]: # (# TODO: organize projects in a way that an image can be added.)
+[![](https://komarev.com/ghpvc/?username=danvargg&color=yellow)](
+https://github.com/antonkomarev/github-profile-views-counter
+)
