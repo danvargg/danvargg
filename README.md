@@ -93,7 +93,8 @@ https://github.com/antonkomarev/github-profile-views-counter
 - MEng. Engineering Management - University of Ottawa (2014)
 - BEng. Industrial Engineering - Instituto Tecnológico de Santo Domingo (2008)
 
-You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf).  You can also find all my certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
+You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf). 
+You can also find all my certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
 
 ### My Relevant Projects (WIP)
 
@@ -120,7 +121,8 @@ You can find my full resume [here](https://github.com/danvargg/danvargg/blob/mai
 - pds (2023)
 - nlp (2023)
 - gans (2023)
-- dlai - mlops (2021)
+- dlai - mlops: tflite android, tfx (2021)
+- mlops: coreml ios (2021)
 - opencv - license plates + ocr (2021)
 - sagemaker - energy consumption (2019)
 - sagemaker - sentiment analysis app (2019)
@@ -128,5 +130,5 @@ You can find my full resume [here](https://github.com/danvargg/danvargg/blob/mai
 - dlai - neural machine translation (2018)
 - dlai - face recognition (2018)
 - dlai - style transfer???? (2018)
+- Next word prediction: A Natural Language Processing (NLP) application that predicts the following word in a prompt. | [Code](https://github.com/danvargg/r-next-word) | [Application](https://danvargg.shinyapps.io/shiny/) (2017)
 - R - montreal cameras (2017)
-- R - next word prediction (2017)
