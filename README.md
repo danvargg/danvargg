@@ -20,8 +20,8 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
 ![SQL](https://img.shields.io/badge/-SQL-000000?style=flat&logo=SQL)
-![C](https://img.shields.io/badge/-C-000000?style=flat&logo=C)
-![C++](https://img.shields.io/badge/-C++-000000?style=flat&logo=c%2B%2B)
+<!---! [C](https://img.shields.io/badge/-C-000000?style=flat&logo=C)
+![C++](https://img.shields.io/badge/-C++-000000?style=flat&logo=c%2B%2B) --->
 ![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat&logo=Markdown)
 ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=Flask)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
@@ -59,6 +59,7 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 
 
 [//]: # (# TODO: fix logos: sql, Matplotlib, Github.Copilot)
+[//]: # (# TODO: fix hugging face colors)
 
 <div style="text-align:center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
