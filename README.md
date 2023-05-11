@@ -20,8 +20,8 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
 ![SQL](https://img.shields.io/badge/-SQL-000000?style=flat&logo=SQL)
-<!---! [C](https://img.shields.io/badge/-C-000000?style=flat&logo=C)
-![C++](https://img.shields.io/badge/-C++-000000?style=flat&logo=c%2B%2B) --->
+![C](https://img.shields.io/badge/-C-000000?style=flat&logo=C)
+![C++](https://img.shields.io/badge/-C++-000000?style=flat&logo=c%2B%2B)
 ![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat&logo=Markdown)
 ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=Flask)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
@@ -61,15 +61,9 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 [//]: # (# TODO: fix logos: sql, Matplotlib, Github.Copilot)
 [//]: # (# TODO: fix hugging face colors)
 
-<div style="text-align:center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danvargg&layout=compact&theme=dark" alt="Top Langs" width="389px" height="168" />
-  </a>
-</div>
-
-[//]: # (# TODO: center the stats)
-
 ### This is my relevant experience
+<details>
+  <summary>Click me</summary>
 
 - Director, AI Development - [Innodem Neurosciences](https://www.linkedin.com/company/innodem-neurosciences/) (2021 - 2023)
 - Data Science Consultant (Contract) - [Master Data Analysis](https://www.linkedin.com/company/master-data-analysis/) (2020 - 2023)
@@ -78,7 +72,12 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 - Data Scientist (Contract) - [baseline.io](https://www.linkedin.com/company/baseline-io/) (2017 - 2017)
 - Data Scientist (Contract) - [SciBase.co](https://www.linkedin.com/company/scibase-inc./) (2017 - 2017)
 
-### My Relevant Education and Certifications
+</details>
+
+### This is my Relevant Education and Certifications
+
+<details>
+  <summary>Click me</summary>
 
 - Machine Learning Engineering for Production (MLOps) Specialization - DeepLEarning.AI (2021)
 - Computer Vision II - OpenCV (2021)
@@ -91,6 +90,8 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 - Data Science Specialization - Johns Hopkins University Advanced Academic Programs (2017)
 - MEng. Engineering Management - University of Ottawa (2014)
 - BEng. Industrial Engineering - Instituto Tecnológico de Santo Domingo (2008)
+
+</details>
 
 You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf). 
 You can also find all my certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
@@ -132,6 +133,21 @@ You can also find all my certificates [here](https://github.com/danvargg/danvarg
 - **Next word prediction:** A `Natural Language Processing (NLP)` application that predicts the following word in a prompt. | [Project](https://github.com/danvargg/r-next-word) | [Application](https://danvargg.shinyapps.io/shiny/) (2017)
 - **Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation cameras (PTZ) in Montreal, in real-time. | [Project]() | [Application](https://rpubs.com/danvargg/geomap) (2017)
 
+#### Selected Stats
+
+<details>
+  <summary>Click me</summary>
+
+<div style="text-align:center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danvargg&layout=compact&theme=dark" alt="Top Langs" width="389px" height="168" />
+  </a>
+</div>
+
+[//]: # (# TODO: center the stats)
+
 [![](https://komarev.com/ghpvc/?username=danvargg&color=yellow)](
 https://github.com/antonkomarev/github-profile-views-counter
 )
+
+</details>
