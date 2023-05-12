@@ -72,23 +72,29 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 - Machine Learning Engineer (Contract) - [Crowdbotics](https://www.linkedin.com/company/crowdbotics/) (2017 - 2018)
 - Data Scientist (Contract) - [baseline.io](https://www.linkedin.com/company/baseline-io/) (2017 - 2017)
 - Data Scientist (Contract) - [SciBase.co](https://www.linkedin.com/company/scibase-inc./) (2017 - 2017)
-- Continuous Improvement Specialist - [Bombardier Aerospace](https://www.linkedin.com/company/bombardier/) (2014 - 2018)
+- Continuous Improvement Specialist ((ITPLM)) - [Bombardier Aerospace](https://www.linkedin.com/company/bombardier/) (2014 - 2018)
+- Lean Six Sigma Black Belt Consultant (Contract) - [QualityGB](https://www.linkedin.com/company/qualitygb/) - (2012 - 2012)
+- Technical Assurance & Validation Engineer II - [Johnson & Johnson](https://www.linkedin.com/company/johnson-&-johnson/) (2010 - 2012)
+- Manufacturing Engineer - [CEA Medical Manufacturing](https://www.linkedin.com/company/nissha-medical-technologies/) (2009 - 2010)
+- Process Engineering Supervisor - [Andin International]() - (2008 - 2009)
+- Intermodal and Equipment Control Coordinator - [A.P. Moller - Maersk](https://www.linkedin.com/company/maersk-group/) (2007 - 2008)
 
 </details>
 
-### This is my Relevant Education and Certifications
+### My Education and Certifications
 
 <details>
   <summary>Click me</summary>
 
-- Machine Learning Engineering for Production (MLOps) Specialization - DeepLEarning.AI (2021)
+- Practical Data Science on  the AWS Cloud (DeepLEarning.AI) - Coursera (2023)
+- Machine Learning Engineering for Production (MLOps) Specialization (DeepLEarning.AI) - Coursera (2021)
 - Computer Vision II - OpenCV (2021)
 - Computer Vision I - OpenCV (2020)
-- (Certification) Azure Data Scientist Associate - Microsoft (2020)
+- Certified Azure Data Scientist Associate - Microsoft (2020)
 - Data Engineering Nanodegree - Udacity (2020)
 - Machine Learning Engineer Nanodegree - Udacity (2019)
 - Microsoft Professional Program in Artificial Intelligence - Microsoft (2018)
-- Deep Learning Specialization - DeepLEarning.AI (2018)
+- Deep Learning Specialization - (DeepLEarning.AI) - Coursera (2018)
 - Data Science Specialization - Johns Hopkins University Advanced Academic Programs (2017)
 - MEng. Engineering Management - University of Ottawa (2014)
 - BEng. Industrial Engineering - Instituto Tecnológico de Santo Domingo (2008)
@@ -105,6 +111,7 @@ certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certific
 [//]: # (# TODO: check all jira tickets?)
 [//]: # (# TODO: delete repos: dend, mlend, mysql-001, folio, opencv1-py, opencv2-py)
 [//]: # (# TODO: explain what are these projects about and restrictions)
+[//]: # (# TODO: add links to education and certifications)
 
 - Ridge regression - coremltools (2022)
 - ETNA: resnet50, onnx, coreml, synthetic data, calibration api (2021)
@@ -129,21 +136,19 @@ prompt. | [Project](https://github.com/danvargg/r-next-word) | [Application](htt
 - **Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation 
 cameras (PTZ) in Montreal, in real-time. | [Project]() | [Application](https://rpubs.com/danvargg/geomap) (2017)
 
-#### Selected Stats
+#### Just Some Stats
 
 <details>
   <summary>Click me</summary>
+
+[![](https://komarev.com/ghpvc/?username=danvargg&color=yellow)](
+https://github.com/antonkomarev/github-profile-views-counter
+)
 
 <div style="text-align:center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danvargg&layout=compact&theme=dark" alt="Top Langs" width="389px" height="168" />
   </a>
 </div>
-
-[//]: # (# TODO: center the stats)
-
-[![](https://komarev.com/ghpvc/?username=danvargg&color=yellow)](
-https://github.com/antonkomarev/github-profile-views-counter
-)
 
 </details>
