@@ -68,9 +68,11 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 - Director, AI Development - [Innodem Neurosciences](https://www.linkedin.com/company/innodem-neurosciences/) (2021 - 2023)
 - Data Science Consultant (Contract) - [Master Data Analysis](https://www.linkedin.com/company/master-data-analysis/) (2020 - 2023)
 - AI / Deep Learning Engineer (Contract) - [Innodem Neurosciences](https://www.linkedin.com/company/innodem-neurosciences/) (2019 - 2021)
+- Sr. Business Systems Analyst - [Canadian National](https://www.linkedin.com/company/cn/) (2018 - 2018)
 - Machine Learning Engineer (Contract) - [Crowdbotics](https://www.linkedin.com/company/crowdbotics/) (2017 - 2018)
 - Data Scientist (Contract) - [baseline.io](https://www.linkedin.com/company/baseline-io/) (2017 - 2017)
 - Data Scientist (Contract) - [SciBase.co](https://www.linkedin.com/company/scibase-inc./) (2017 - 2017)
+- Continuous Improvement Specialist - [Bombardier Aerospace](https://www.linkedin.com/company/bombardier/) (2014 - 2018)
 
 </details>
 
@@ -93,18 +95,15 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 
 </details>
 
-You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf). 
-You can also find all my certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
+You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf) and all my 
+certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
 
-### My Relevant Projects (WIP)
+### These are my Relevant Projects (WIP)
 
 [//]: # (# TODO: center most used languages on github.)
 [//]: # (# TODO: show projects as table?)
 [//]: # (# TODO: check all jira tickets?)
 [//]: # (# TODO: delete repos: dend, mlend, mysql-001, folio, opencv1-py, opencv2-py)
-
-#### Industry Projects (WIP)
-
 [//]: # (# TODO: explain what are these projects about and restrictions)
 
 - Ridge regression - coremltools (2022)
@@ -113,11 +112,6 @@ You can also find all my certificates [here](https://github.com/danvargg/danvarg
 - AuraML: recomm engine, deployment, data prep (2018)
 - Scibase.co???: nlp (2017)
 - baseline.io: dashboard (2017)
-
-#### Independent Projects (WIP)
-
-[//]: # (# TODO: explain what are these projects about)
-
 - pds (2023)
 - nlp (2023)
 - gans (2023)
@@ -126,12 +120,14 @@ You can also find all my certificates [here](https://github.com/danvargg/danvarg
 - opencv - license plates + ocr (2021)
 - sagemaker - energy consumption (2019)
 - sagemaker - sentiment analysis app (2019)
-- dlai - car detection (2018)
-- dlai - neural machine translation (2018)
-- dlai - face recognition (2018)
-- dlai - style transfer (2018)
-- **Next word prediction:** A `Natural Language Processing (NLP)` application that predicts the following word in a prompt. | [Project](https://github.com/danvargg/r-next-word) | [Application](https://danvargg.shinyapps.io/shiny/) (2017)
-- **Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation cameras (PTZ) in Montreal, in real-time. | [Project]() | [Application](https://rpubs.com/danvargg/geomap) (2017)
+- **Brasil Temperature and Precipitation**: A `Data Visualization` dashboard to analyze temperature and precipitation 
+projections for communities across Brasil.
+- **Telemetry Analysis Dashboard**: A `Data Visualization` dashboard to analyze telemetry data from multiple devices: 
+timeline visual, raw data and geolocation. (2017)
+- **Next word prediction:** A `Natural Language Processing (NLP)` application that predicts the following word in a 
+prompt. | [Project](https://github.com/danvargg/r-next-word) | [Application](https://danvargg.shinyapps.io/shiny/) (2017)
+- **Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation 
+cameras (PTZ) in Montreal, in real-time. | [Project]() | [Application](https://rpubs.com/danvargg/geomap) (2017)
 
 #### Selected Stats
 
