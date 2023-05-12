@@ -62,7 +62,7 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 [//]: # (# TODO: fix logos: sql, Matplotlib, Github.Copilot)
 [//]: # (# TODO: fix hugging face colors)
 
-### You can find my portfolio of projects [here](https://github.com/danvargg/danvargg/tree/main/projects)
+### You can find my portfolio of projects [here](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md)
 
 ### This is my relevant experience
 <details>
