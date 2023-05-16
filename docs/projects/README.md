@@ -24,6 +24,17 @@ https://github.com/danvargg/brasil-climate/blob/main/images/brazil_temp.PNG
 - **Telemetry Analysis Dashboard**: A `Data Visualization` dashboard to analyze telemetry data from multiple devices: 
 timeline visual, raw data and geolocation. (2017)
 
+![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
+![Shiny](
+https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
+)
+
+[//]: # (![Telemetry]&#40;)
+
+[//]: # (https://github.com/danvargg/brasil-climate/blob/main/images/brazil_temp.PNG)
+
+[//]: # (&#41;)
+
 ---
 
 - **Next word prediction:** A `Natural Language Processing (NLP)` application that predicts the following word in a 
