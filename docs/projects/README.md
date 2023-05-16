@@ -7,25 +7,39 @@
 [//]: # (# TODO: explain what are these projects about and restrictions)
 [//]: # (# TODO: add links to education and certifications)
 
-- Ridge regression - coremltools (2022)
+- **Brasil Temperature and Precipitation**: A `Data Visualization` dashboard to analyze temperature and precipitation 
+projections for communities across Brasil.
+
+---
+
+- **Telemetry Analysis Dashboard**: A `Data Visualization` dashboard to analyze telemetry data from multiple devices: 
+timeline visual, raw data and geolocation. (2017)
+
+---
+
+- **Next word prediction:** A `Natural Language Processing (NLP)` application that predicts the following word in a 
+prompt. | [Code](https://github.com/danvargg/r-next-word) | [Application](https://danvargg.shinyapps.io/shiny/) (2017)
+
+---
+
+- **Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation 
+cameras (PTZ) in Montreal, in real-time. | [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/mtl_cameras.Rmd) | [Application](https://rpubs.com/danvargg/geomap) (2017)
+
+### Coming soon
+
+- pds - BERT tunning (2023)
+- nlp - chatbot, etc (2023)
+- gans - TBD (2023)
+- Detect, classify and count (2023)
+- OCR (2023)
+- Ridge Regression in coremltools (2022)
 - ETNA: resnet50, onnx, coreml, synthetic data, calibration api (2021)
 - Pigio: cnn, end-to-end, coreml, tflite, quantization, calibration api (2019)
 - AuraML: recomm engine, deployment, data prep (2018)
-- Scibase.co???: nlp (2017)
-- baseline.io: dashboard (2017)
-- pds (2023)
-- nlp (2023)
-- gans (2023)
+- Telemetry Data Dashboard: baseline.io (2017)
 - dlai - mlops: tflite android, tfx (2021)
-- mlops: coreml ios (2021)
-- opencv - license plates + ocr (2021)
-- sagemaker - energy consumption (2019)
-- sagemaker - sentiment analysis app (2019)
-- **Brasil Temperature and Precipitation**: A `Data Visualization` dashboard to analyze temperature and precipitation 
-projections for communities across Brasil.
-- **Telemetry Analysis Dashboard**: A `Data Visualization` dashboard to analyze telemetry data from multiple devices: 
-timeline visual, raw data and geolocation. (2017)
-- **Next word prediction:** A `Natural Language Processing (NLP)` application that predicts the following word in a 
-prompt. | [Project](https://github.com/danvargg/r-next-word) | [Application](https://danvargg.shinyapps.io/shiny/) (2017)
-- **Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation 
-cameras (PTZ) in Montreal, in real-time. | [Project]() | [Application](https://rpubs.com/danvargg/geomap) (2017)
+- tf mlops: coreml ios (2021)
+- Sentiment Analysis on Movies Reviews (2019)
+- Energy Consumption Prediction (2019)
+- Neural Machine Translation (2018)
+- Real Time Bixi Stations in Montreal (2017)
