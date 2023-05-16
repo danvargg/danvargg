@@ -10,6 +10,15 @@
 - **Brasil Temperature and Precipitation**: A `Data Visualization` dashboard to analyze temperature and precipitation 
 projections for communities across Brasil.
 
+![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
+![Shiny](
+https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
+)
+
+![Brazil_Temp](
+https://github.com/danvargg/brasil-climate/blob/main/images/brazil_temp.PNG
+)
+
 ---
 
 - **Telemetry Analysis Dashboard**: A `Data Visualization` dashboard to analyze telemetry data from multiple devices: 
