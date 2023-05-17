@@ -7,23 +7,15 @@
 [//]: # (# TODO: explain what are these projects about and restrictions)
 [//]: # (# TODO: add links to education and certifications)
 
-<img align="right" width=50% height=50% src="https://github.com/danvargg/brasil-climate/blob/main/images/brazil_temp.PNG">
-
 - **Brasil Temperature and Precipitation**: A `Data Visualization` dashboard to analyze temperature and precipitation 
 projections for communities across Brasil. [Code](https://github.com/danvargg/brasil-climate/tree/main) (2017)
-
-
 
 ![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
 ![Shiny](
 https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
 )
 
-[//]: # (![Brazil_Temp]&#40;)
-
-[//]: # (https://github.com/danvargg/brasil-climate/blob/main/images/brazil_temp.PNG)
-
-[//]: # (&#41;)
+<img width=50% height=50% src="https://github.com/danvargg/brasil-climate/blob/main/images/brazil_temp.PNG">
 
 ---
 
@@ -51,6 +43,8 @@ prompt. [Code](https://github.com/danvargg/r-next-word) | [Application](https://
 ![Shiny](
 https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
 )
+
+<img src="https://github.com/danvargg/r-next-word/blob/main/next_word.PNG">
 
 ---
 
