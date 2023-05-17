@@ -14,6 +14,10 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 )](mailto:danvargg@gmil.com
 )
 
+- [Portfolio of Projects](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md)
+- [Full Resume](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf)
+- [Certificates](https://github.com/danvargg/danvargg/tree/main/docs/certificates)
+
 ### My Tech Stack
 
 ![Ubuntu](https://img.shields.io/badge/-Ubuntu-000000?style=flat&logo=Ubuntu)
@@ -62,9 +66,7 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 [//]: # (# TODO: fix logos: sql, Matplotlib, Github.Copilot)
 [//]: # (# TODO: fix hugging face colors)
 
-### You can find my portfolio of projects [here](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md)
-
-### This is my relevant experience
+### My experience
 <details>
   <summary>Click me</summary>
 
@@ -89,23 +91,26 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 <details>
   <summary>Click me</summary>
 
-- Practical Data Science on  the AWS Cloud (DeepLEarning.AI) - Coursera (2023)
-- Machine Learning Engineering for Production (MLOps) Specialization (DeepLEarning.AI) - Coursera (2021)
-- Computer Vision II - OpenCV (2021)
-- Computer Vision I - OpenCV (2020)
-- Certified Azure Data Scientist Associate - Microsoft (2020)
-- Data Engineering Nanodegree - Udacity (2020)
-- Machine Learning Engineer Nanodegree - Udacity (2019)
-- Microsoft Professional Program in Artificial Intelligence - Microsoft (2018)
-- Deep Learning Specialization - (DeepLEarning.AI) - Coursera (2018)
-- Data Science Specialization - Johns Hopkins University Advanced Academic Programs (2017)
-- MEng. Engineering Management - University of Ottawa (2014)
-- BEng. Industrial Engineering - Instituto Tecnológico de Santo Domingo (2008)
+#### Education
+
+- Natural Language Processing (NLP) Specialization ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2023)
+- Practical Data Science on  the AWS Cloud ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2023)
+- Machine Learning Engineering for Production (MLOps) Specialization ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2021)
+- Data Engineering Nanodegree - ([Udacity](https://www.udacity.com/)) (2020)
+- Machine Learning Engineer Nanodegree - ([Udacity](https://www.udacity.com/)) (2019)
+- Deep Learning Specialization - ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2018)
+- Data Science Specialization - ([Johns Hopkins University Advanced Academic Programs](https://advanced.jhu.edu/)) - Coursera (2017)
+- MEng. Engineering Management - [University of Ottawa](https://www.uottawa.ca/en) (2014)
+- BEng. Industrial Engineering - [Instituto Tecnológico de Santo Domingo](https://www.intec.edu.do/) (2008)
+
+#### Certifications
+
+- Computer Vision II - [OpenCV](https://opencv.org/courses/) (2021)
+- Computer Vision I - [OpenCV](https://opencv.org/courses/) (2020)
+- Certified Azure Data Scientist Associate - [Microsoft](https://learn.microsoft.com/en-us/certifications/azure-data-scientist/) (2020)
+- Microsoft Professional Program in Artificial Intelligence - [Microsoft](https://partner.microsoft.com/en-hk/marketing/mpn/mpp) (2018)
 
 </details>
-
-You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf) and all my 
-certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
 
 #### Just Some Stats
 
