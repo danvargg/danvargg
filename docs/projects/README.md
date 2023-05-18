@@ -15,10 +15,9 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-- **Montreal Bixi Stations Status**: A `Data Visualization` dashboard to display Montreal's Bixi bike sharing system in real time.
-It refreshes the data every 60 seconds and displays: Active stations, Inactive stations, Available docks per station, and Available bikes per station.
+- **Montreal Bixi Stations Status**: A `Data Visualization` dashboard to display Montreal's Bixi bike sharing system in real time. [Code](https://github.com/danvargg/r-bixi-mtl) | [Application](https://danvargg.shinyapps.io/bixi/) (2017)
 
-
+<img width=50% height=50%  src="https://github.com/danvargg/docs/projects/mtl-cameras.png">
 
 ---
 
