@@ -56,7 +56,7 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 ![Anaconda](https://img.shields.io/badge/-Anaconda-000000?style=flat&logo=Anaconda)
 ![VSCode](https://img.shields.io/badge/-VSCode-000000?style=flat&logo=visual-studio-code&logoColor=007ACC)
 ![PyCharm](https://img.shields.io/badge/-PyCharm-000000?style=flat&logo=PyCharm)
-![Github_Copilot](https://img.shields.io/badge/-Github.Copilot-000000?style=flat&logo=GithubCopilot)
+![Github_Copilot](https://img.shields.io/badge/-Github_Copilot-000000?style=flat&logo=GithubCopilot)
 ![OpenAI](https://img.shields.io/badge/-OpenAI-000000?style=flat&logo=OpenAI)
 ![Jira](https://img.shields.io/badge/-Jira-000000?style=flat&logo=Jira)
 ![Confluence](https://img.shields.io/badge/-Confluence-000000?style=flat&logo=Confluence)

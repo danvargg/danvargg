@@ -7,34 +7,6 @@
 [//]: # (# TODO: explain what are these projects about and restrictions)
 [//]: # (# TODO: add links to education and certifications)
 
-- **Brasil Temperature and Precipitation**: A `Data Visualization` dashboard to analyze temperature and precipitation 
-projections for communities across Brasil. [Code](https://github.com/danvargg/brasil-climate/tree/main) (2017)
-
-![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
-![Shiny](
-https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
-)
-
-<img width=50% height=50% src="https://github.com/danvargg/brasil-climate/blob/main/images/brazil_temp.PNG">
-
----
-
-- **Telemetry Analysis Dashboard**: A `Data Visualization` dashboard to analyze telemetry data from multiple devices: 
-timeline visual, raw data and geolocation. (2017)
-
-![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
-![Shiny](
-https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
-)
-
-[//]: # (![Telemetry]&#40;)
-
-[//]: # (https://github.com/danvargg/brasil-climate/blob/main/images/brazil_temp.PNG)
-
-[//]: # (&#41;)
-
----
-
 - **Next word prediction:** A `Natural Language Processing (NLP)` application that predicts the following word in a 
 prompt. [Code](https://github.com/danvargg/r-next-word) | [Application](https://danvargg.shinyapps.io/shiny/) (2017)
 
@@ -48,6 +20,16 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
+- **Telemetry Analysis Dashboard**: A `Data Visualization` dashboard to analyze telemetry data from multiple devices: 
+timeline visual, raw data and geolocation. (2017)
+
+![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
+![Shiny](
+https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
+)
+
+---
+
 - **Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation 
 cameras (PTZ) in Montreal, in real-time. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/mtl_cameras.Rmd) | [Application](https://rpubs.com/danvargg/geomap) (2017)
 
@@ -55,6 +37,20 @@ cameras (PTZ) in Montreal, in real-time. [Code](https://github.com/danvargg/danv
 ![Shiny](
 https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
 )
+
+---
+
+- **Brasil Temperature and Precipitation**: A `Data Visualization` dashboard to analyze temperature and precipitation 
+projections for communities across Brasil. [Code](https://github.com/danvargg/brasil-climate/tree/main) (2017)
+
+![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
+![Shiny](
+https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
+)
+
+<img width=50% height=50% src="https://github.com/danvargg/brasil-climate/blob/main/images/brazil_temp.PNG">
+
+---
 
 ### Coming soon
 
