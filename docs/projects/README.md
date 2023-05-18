@@ -11,13 +11,13 @@ prompt. [Code](https://github.com/danvargg/r-next-word) | [Application](https://
 https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
 )
 
-<img src="https://github.com/danvargg/r-next-word/blob/main/next_word.PNG">
+<img src="https://github.com/danvargg/r-next-word/blob/main/images/next_word.PNG">
 
 ---
 
 - **Montreal Bixi Stations Status**: A `Data Visualization` dashboard to display Montreal's Bixi bike sharing system in real time. [Code](https://github.com/danvargg/r-bixi-mtl) | [Application](https://danvargg.shinyapps.io/bixi/) (2017)
 
-<img width=50% height=50%  src="https://github.com/danvargg/docs/projects/mtl-cameras.png">
+[//]: # (<img width=50% height=50%  src="https://github.com/danvargg/docs/projects/mtl-cameras.png">)
 
 ---
 
@@ -28,6 +28,8 @@ cameras (PTZ) in Montreal, in real-time. [Code](https://github.com/danvargg/danv
 ![Shiny](
 https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
 )
+
+<img width=50% height=50%  src="https://github.com/danvargg/docs/projects/mtl-cameras.png">
 
 ---
 
