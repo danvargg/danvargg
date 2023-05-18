@@ -29,7 +29,7 @@ cameras (PTZ) in Montreal, in real-time. [Code](https://github.com/danvargg/danv
 https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
 )
 
-<img width=50% height=50%  src="https://github.com/danvargg/docs/projects/mtl-cameras.png">
+<img width=50% height=50%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/mtl-cameras.png">
 
 ---
 
