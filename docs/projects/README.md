@@ -17,7 +17,7 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 - **Montreal Bixi Stations Status**: A `Data Visualization` dashboard to display Montreal's Bixi bike sharing system in real time. [Code](https://github.com/danvargg/r-bixi-mtl) | [Application](https://danvargg.shinyapps.io/bixi/) (2017)
 
-[//]: # (<img width=50% height=50%  src="https://github.com/danvargg/docs/projects/mtl-cameras.png">)
+<img width=50% height=50%  src="https://github.com/danvargg/r-bixi-mtl/blob/main/images/Bixi.PNG">
 
 ---
 
@@ -62,4 +62,3 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 - Sentiment Analysis on Movies Reviews (2019)
 - Energy Consumption Prediction (2019)
 - Neural Machine Translation (2018)
-- Real Time Bixi Stations in Montreal (2017)
