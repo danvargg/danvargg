@@ -4,7 +4,7 @@
 ![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazonaws)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
 
-<img src="https://github.com/danvargg/docs/projects/auraML/auraml.png">
+<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/auraml.png">
 
 A recommendation system... aura health .io
 
