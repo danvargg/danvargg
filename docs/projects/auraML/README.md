@@ -4,9 +4,9 @@
 ![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazonaws)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
 
-### Image here
+<img src="https://github.com/danvargg/docs/projects/auraML/auraml.png">
 
-A recommender system...
+A recommendation system... aura health .io
 
 ### Business Problem
 

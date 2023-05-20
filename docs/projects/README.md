@@ -26,7 +26,6 @@
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazonaws)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
-![Github](https://img.shields.io/badge/-Github-000000?style=flat&logo=Github)
 ![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
 
 <img src="https://github.com/danvargg/r-next-word/blob/main/images/next_word.PNG">
@@ -39,7 +38,7 @@
 ![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazonaws)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
 
-<img src="https://github.com/danvargg/r-next-word/blob/main/images/next_word.PNG">
+<img width=50% height=50% src="https://github.com/danvargg/docs/projects/auraML/auraml.png">
 
 ---
 
@@ -62,7 +61,7 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
 )
 
-<img width=50% height=50%  src="https://github.com/danvargg/r-bixi-mtl/blob/main/images/Bixi.PNG">
+<img width=50% height=50% src="https://github.com/danvargg/r-bixi-mtl/blob/main/images/Bixi.PNG">
 
 ---
 
