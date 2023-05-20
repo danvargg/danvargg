@@ -32,7 +32,7 @@
 
 ---
 
-- **Recommendation System:** A `Recommender System` .... [Code]() (2018)
+- **Recommendation System:** A `Recommender System` .... [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md) (2018)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazonaws)
@@ -73,7 +73,7 @@ cameras (PTZ) in Montreal, in real-time. [Code](https://github.com/danvargg/danv
 https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue
 )
 
-<img width=50% height=50%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/mtl-cameras.png">
+<img width=50% height=50%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/mtl_geo/mtl-cameras.png">
 
 ---
 
