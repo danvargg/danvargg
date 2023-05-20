@@ -24,11 +24,8 @@
 - **Scikit-Learn Ridge Regression for CoreML (iOS):** An `Open Source` contribution (MLOPs).... [Code]() (2022)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
-![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazonaws)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
 ![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
-
-<img src="https://github.com/danvargg/r-next-word/blob/main/images/next_word.PNG">
 
 ---
 
