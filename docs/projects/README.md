@@ -10,7 +10,6 @@
 - Ridge Regression in coremltools (2022)
 - ETNA: resnet50, onnx, coreml, synthetic data, calibration api (2021)
 - Pigio: cnn, end-to-end, coreml, tflite, quantization, calibration api (2019)
-- AuraML: recomm engine, deployment, data prep (2018)
 - Telemetry Data Dashboard: baseline.io (2017)
 - dlai - mlops: tflite android, tfx (2021)
 - tf mlops: coreml ios (2021)
@@ -19,6 +18,28 @@
 - Neural Machine Translation (2018)
 
 [//]: # (# TODO: delete repos: dend, mlend, mysql-001, folio, opencv1-py, opencv2-py)
+
+---
+
+- **Scikit-Learn Ridge Regression for CoreML (iOS):** An `Open Source` contribution (MLOPs).... [Code]() (2022)
+
+![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
+![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazonaws)
+![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
+![Github](https://img.shields.io/badge/-Github-000000?style=flat&logo=Github)
+![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
+
+<img src="https://github.com/danvargg/r-next-word/blob/main/images/next_word.PNG">
+
+---
+
+- **Recommendation System:** A `Recommender System` .... [Code]() (2018)
+
+![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
+![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazonaws)
+![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
+
+<img src="https://github.com/danvargg/r-next-word/blob/main/images/next_word.PNG">
 
 ---
 
@@ -46,7 +67,7 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 ---
 
 - **Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation 
-cameras (PTZ) in Montreal, in real-time. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/mtl_cameras.Rmd) | [Application](https://rpubs.com/danvargg/geomap) (2017)
+cameras (PTZ) in Montreal, in real-time. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/mtl_geo/mtl_cameras.Rmd) | [Application](https://rpubs.com/danvargg/geomap) (2017)
 
 ![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
 ![Shiny](

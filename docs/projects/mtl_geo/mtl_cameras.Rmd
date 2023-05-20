@@ -11,7 +11,7 @@ code_folding: hide
 
 
 * Date: February 1, 2017
-* **[Code](https://github.com/danvargg/folio/tree/master/Geolocation)**
+* **[Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/mtl_geo/mtl_cameras.Rmd)**
 * Technologies: R, Leaflet
 
 ```{r}
