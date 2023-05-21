@@ -1,27 +1,6 @@
 ## Portfolio of Projects
 
-### Coming soon
-
-- pds - BERT tunning (2023)
-- nlp - chatbot, etc (2023)
-- gans - TBD (2023)
-- Detect, classify and count (2023)
-- OCR (2023)
-- Ridge Regression in coremltools (2022)
-- ETNA: resnet50, onnx, coreml, synthetic data, calibration api (2021)
-- Pigio: cnn, end-to-end, coreml, tflite, quantization, calibration api (2019)
-- Telemetry Data Dashboard: baseline.io (2017)
-- dlai - mlops: tflite android, tfx (2021)
-- tf mlops: coreml ios (2021)
-- Sentiment Analysis on Movies Reviews (2019)
-- Energy Consumption Prediction (2019)
-- Neural Machine Translation (2018)
-
-[//]: # (# TODO: delete repos: dend, mlend, mysql-001, folio, opencv1-py, opencv2-py)
-
----
-
-- **Scikit-Learn Ridge Regression for CoreML (iOS):** An `Open Source` contribution (MLOPs).... [Code]() (2022)
+- **Scikit-Learn Ridge Regression for CoreML:** An `Open Source` contribution to support Ridge Regression deployment on Apple devices. Implemented in [coremltools 6.2](https://github.com/apple/coremltools/releases/tag/6.2) release. [Code](https://github.com/apple/coremltools/pull/1707) (2022)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
@@ -29,7 +8,7 @@
 
 ---
 
-- **Recommendation System:** A `Recommender System` .... [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md) (2018)
+- **Recommendation System:** A `Recommendation System` .... [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md) (2018)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazonaws)
@@ -83,3 +62,33 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 )
 
 <img width=50% height=50% src="https://github.com/danvargg/brasil-climate/blob/main/images/brazil_temp.PNG">
+
+---
+
+### Coming soon
+
+#### Data Science | Machine Learning
+
+- pds - BERT deploy (2023)
+- nlp - chatbot, nmt (2023)
+- gans - TBD (2023)
+- Detect, classify and count (2023)
+- OCR (2023)
+- ETNA: resnet50, onnx, coreml, synthetic data, calibration api (2021)
+- dlai - mlops: tflite android, tfx (2021)
+- tf mlops: coreml ios (2021)
+- Pigio: cnn, end-to-end, coreml, tflite, quantization, calibration api (2019)
+- Sentiment Analysis on Movies Reviews (2019)
+- Energy Consumption Prediction (2019)
+- Neural Machine Translation (2018)
+- auraML - recommendation system (2018)
+
+#### Non - Data Science | Machine Learning
+
+- Asteroid Shooter (2023)
+- Frogger (2023)
+- Western Shooter (2023)
+- Contra (2023)
+- Blade Frogger (2023)
+- Tower Defense (2023)
+- GameBoy Emulator (2023)
