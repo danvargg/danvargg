@@ -1,5 +1,7 @@
 ## Portfolio of Projects
 
+---
+
 - **Scikit-Learn Ridge Regression for CoreML:** An `Open Source` contribution to support Ridge Regression deployment on Apple devices. Implemented in [coremltools 6.2](https://github.com/apple/coremltools/releases/tag/6.2) release. [Code](https://github.com/apple/coremltools/pull/1707) (2022)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)

@@ -1,12 +1,10 @@
 ### Hi there 👋
 
 My name is Daniel Vargas, and I'm an Industrial Engineer turned into Data Scientist and Machine Learning Engineer.
-I have 16+ years of overall experience. I've dedicated 6+ of these years to solving problems through applied Data
+I have 16+ years of overall experience. 
+For 6+ years I've been solving computer vision, natural language processing (NLP) and numerical business problems through applied Data
 Science, Machine Learning, and Deep Learning.
 
-[//]: # (# TODO: add more to bio.)
-
-#### Let's talk!
 [![Linkedin: danvargg](
 https://img.shields.io/badge/-danvargg-blue?style=flat-square&logo=Linkedin&logoColor=white&link=linkedin.com/in/danvargg/
 )](https://www.linkedin.com/in/danvargg/)   [![GMail: danvargg](
@@ -14,9 +12,7 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 )](mailto:danvargg@gmil.com
 )
 
-- [Portfolio of Projects](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md)
-- [Full Resume](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf)
-- [Certificates](https://github.com/danvargg/danvargg/tree/main/docs/certificates)
+#### [My Portfolio of Projects](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md)
 
 ### My Tech Stack
 
@@ -84,6 +80,8 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 - Process Engineering Supervisor - [Andin International]() - (2008 - 2009)
 - Intermodal and Equipment Control Coordinator - [A.P. Moller - Maersk](https://www.linkedin.com/company/maersk-group/) (2007 - 2008)
 
+You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf).
+
 </details>
 
 ### My Education and Certifications
@@ -109,6 +107,8 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 - Computer Vision I - [OpenCV](https://opencv.org/courses/) (2020)
 - Certified Azure Data Scientist Associate - [Microsoft](https://learn.microsoft.com/en-us/certifications/azure-data-scientist/) (2020)
 - Microsoft Professional Program in Artificial Intelligence - [Microsoft](https://partner.microsoft.com/en-hk/marketing/mpn/mpp) (2018)
+
+You can find all my certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
 
 </details>
 
