@@ -10,7 +10,19 @@
 
 ---
 
-- **Recommendation System:** A `Recommendation System` .... [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md) (2018)
+- **Deep Learning System for Eye Gaze Tracking:** A `Computer Vision` contribution to support Ridge Regression deployment on Apple devices. Implemented in [coremltools 6.2](https://github.com/apple/coremltools/releases/tag/6.2) release. [Code]() (2019)
+
+![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
+![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
+![Numpy](https://img.shields.io/badge/-Numpy-000000?style=flat&logo=Numpy)
+![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
+![Keras](https://img.shields.io/badge/-Keras-000000?style=flat&logo=Keras)
+![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat&logo=Tensorflow)
+![OpenCV](https://img.shields.io/badge/-OpenCV-000000?style=flat&logo=OpenCV)
+
+---
+
+- **Recommendation System:** A `Recommendation System` for an audio streaming service for wellness content. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md) (2018)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazonaws)
@@ -79,11 +91,9 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 - ETNA: resnet50, onnx, coreml, synthetic data, calibration api (2021)
 - dlai - mlops: tflite android, tfx (2021)
 - tf mlops: coreml ios (2021)
-- Pigio: cnn, end-to-end, coreml, tflite, quantization, calibration api (2019)
 - Sentiment Analysis on Movies Reviews (2019)
 - Energy Consumption Prediction (2019)
 - Neural Machine Translation (2018)
-- auraML - recommendation system (2018)
 
 #### Non - Data Science | Machine Learning
 

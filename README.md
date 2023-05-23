@@ -1,8 +1,9 @@
 ### Hi there 👋
 
 My name is Daniel Vargas, and I'm an Industrial Engineer turned into Data Scientist and Machine Learning Engineer.
-I have 16+ years of overall experience. 
-For 6+ years I've been solving computer vision, natural language processing (NLP) and numerical business problems through applied Data
+I have 16+ years of overall experience.
+For 6+ years I've been solving computer vision, natural language processing (NLP) and numerical business problems
+through applied Data
 Science, Machine Learning, and Deep Learning.
 
 [![Linkedin: danvargg](
@@ -58,23 +59,24 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 ![Confluence](https://img.shields.io/badge/-Confluence-000000?style=flat&logo=Confluence)
 ![Trello](https://img.shields.io/badge/-Trello-000000?style=flat&logo=Trello)
 
-
 [//]: # (# TODO: fix logos: sql, Matplotlib, Github.Copilot)
 [//]: # (# TODO: fix hugging face colors)
 
 ### My experience
+
 <details>
   <summary>Click me</summary>
 
 - Director, AI Development - [Innodem Neurosciences](https://www.linkedin.com/company/innodem-neurosciences/) (2021 - 2023)
 - Data Science Consultant (Contract) - [Master Data Analysis](https://www.linkedin.com/company/master-data-analysis/) (2020 - 2023)
-- AI / Deep Learning Engineer (Contract) - [Innodem Neurosciences](https://www.linkedin.com/company/innodem-neurosciences/) (2019 - 2021)
+- AI / Deep Learning Engineer (
+  Contract) - [Innodem Neurosciences](https://www.linkedin.com/company/innodem-neurosciences/) (2019 - 2021)
 - Sr. Business Systems Analyst - [Canadian National](https://www.linkedin.com/company/cn/) (2018 - 2018)
 - Machine Learning Engineer (Contract) - [Crowdbotics](https://www.linkedin.com/company/crowdbotics/) (2017 - 2018)
 - Data Scientist (Contract) - [baseline.io](https://www.linkedin.com/company/baseline-io/) (2017 - 2017)
 - Data Scientist (Contract) - [SciBase.co](https://www.linkedin.com/company/scibase-inc./) (2017 - 2017)
-- Continuous Improvement Specialist ((ITPLM)) - [Bombardier Aerospace](https://www.linkedin.com/company/bombardier/) (2014 - 2018)
-- Lean Six Sigma Black Belt Consultant (Contract) - [QualityGB](https://www.linkedin.com/company/qualitygb/) - (2012 - 2012)
+- Continuous Improvement Specialist (ITPLM) - [Bombardier Aerospace](https://www.linkedin.com/company/bombardier/) (2014 - 2018)
+- Lean Six Sigma Black Belt Consultant (Contract) - [QualityGB](https://www.linkedin.com/company/qualitygb/) (2012 -2012)
 - Technical Assurance & Validation Engineer II - [Johnson & Johnson](https://www.linkedin.com/company/johnson-&-johnson/) (2010 - 2012)
 - Manufacturing Engineer - [CEA Medical Manufacturing](https://www.linkedin.com/company/nissha-medical-technologies/) (2009 - 2010)
 - Process Engineering Supervisor - [Andin International]() - (2008 - 2009)
@@ -92,7 +94,7 @@ You can find my full resume [here](https://github.com/danvargg/danvargg/blob/mai
 #### Education
 
 - Natural Language Processing (NLP) Specialization ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2023)
-- Practical Data Science on  the AWS Cloud ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2023)
+- Practical Data Science on the AWS Cloud ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2023)
 - Machine Learning Engineering for Production (MLOps) Specialization ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2021)
 - Data Engineering Nanodegree - ([Udacity](https://www.udacity.com/)) (2020)
 - Machine Learning Engineer Nanodegree - ([Udacity](https://www.udacity.com/)) (2019)
