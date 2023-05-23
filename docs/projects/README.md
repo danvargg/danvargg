@@ -20,6 +20,8 @@
 ![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat&logo=Tensorflow)
 ![OpenCV](https://img.shields.io/badge/-OpenCV-000000?style=flat&logo=OpenCV)
 
+<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/images/eye-gaze.png">
+
 ---
 
 - **Recommendation System:** A `Recommendation System` for an audio streaming service for wellness content. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md) (2018)

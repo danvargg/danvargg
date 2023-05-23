@@ -8,7 +8,7 @@
 ![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat&logo=Tensorflow)
 ![OpenCV](https://img.shields.io/badge/-OpenCV-000000?style=flat&logo=OpenCV)
 
-<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/images/eye-gaze.png">
+[//]: # (<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/images/eye-gaze.png">)
 
 > This a generalized version of the project. The code, architecture, and data are property of the client and cannot be shared.
 
