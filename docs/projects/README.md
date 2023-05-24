@@ -1,8 +1,8 @@
-## Portfolio of Projects
+## Data Science and Machine Learning Projects
 
 ---
 
-- **Scikit-Learn Ridge Regression for CoreML:** An `Open Source` contribution to support Ridge Regression deployment on Apple devices. Implemented in [coremltools 6.2](https://github.com/apple/coremltools/releases/tag/6.2) release. [Code](https://github.com/apple/coremltools/pull/1707) (2022)
+**Scikit-Learn Ridge Regression for CoreML:** An `Open Source` contribution to support Ridge Regression deployment on Apple devices. Implemented in [coremltools 6.2](https://github.com/apple/coremltools/releases/tag/6.2) release. [Code](https://github.com/apple/coremltools/pull/1707)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
@@ -10,7 +10,7 @@
 
 ---
 
-- **Deep Learning System for Eye Gaze Tracking:** A `Computer Vision` contribution to support Ridge Regression deployment on Apple devices. Implemented in [coremltools 6.2](https://github.com/apple/coremltools/releases/tag/6.2) release. [Code]() (2019)
+**Deep Learning System for Eye Gaze Tracking:** A `Computer Vision` eye-tracking system for... [Code]() 
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
@@ -24,7 +24,7 @@
 
 ---
 
-- **Recommendation System:** A `Recommendation System` for an audio streaming service for wellness content. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md) (2018)
+**Recommendation System:** A `Recommendation System` for an audio streaming service for wellness content. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazonaws)
@@ -34,8 +34,8 @@
 
 ---
 
-- **Next word prediction:** A `Natural Language Processing (NLP)` application that predicts the following word in a 
-prompt. [Code](https://github.com/danvargg/r-next-word) | [Application](https://danvargg.shinyapps.io/shiny/) (2017)
+**Next word prediction:** A `Natural Language Processing (NLP)` application that predicts the following word in a 
+prompt. [Code](https://github.com/danvargg/r-next-word) | [Application](https://danvargg.shinyapps.io/shiny/)
 
 ![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
 ![Shiny](
@@ -46,7 +46,7 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-- **Montreal Bixi Stations Status**: A `Data Visualization` dashboard to display Montreal's Bixi bike sharing system in real time. [Code](https://github.com/danvargg/r-bixi-mtl) | [Application](https://danvargg.shinyapps.io/bixi/) (2017)
+**Montreal Bixi Stations Status**: A `Data Visualization` dashboard to display Montreal's Bixi bike sharing system in real time. [Code](https://github.com/danvargg/r-bixi-mtl) | [Application](https://danvargg.shinyapps.io/bixi/)
 
 ![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
 ![Shiny](
@@ -57,8 +57,8 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-- **Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation 
-cameras (PTZ) in Montreal, in real-time. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/mtl_geo/mtl_cameras.Rmd) | [Application](https://rpubs.com/danvargg/geomap) (2017)
+**Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation 
+cameras (PTZ) in Montreal, in real-time. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/mtl_geo/mtl_cameras.Rmd) | [Application](https://rpubs.com/danvargg/geomap)
 
 ![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
 ![Shiny](
@@ -69,8 +69,8 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-- **Brasil Temperature and Precipitation**: A `Data Visualization` dashboard to analyze temperature and precipitation 
-projections for communities across Brasil. [Code](https://github.com/danvargg/brasil-climate/tree/main) (2017)
+**Brasil Temperature and Precipitation**: A `Data Visualization` dashboard to analyze temperature and precipitation 
+projections for communities across Brasil. [Code](https://github.com/danvargg/brasil-climate/tree/main)
 
 ![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
 ![Shiny](
@@ -81,28 +81,49 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-### Coming soon
+## Coming soon
 
-#### Data Science | Machine Learning
+### Data Science | Machine Learning Projects
 
-- pds - BERT deploy (2023)
-- nlp - chatbot, nmt (2023)
-- gans - TBD (2023)
-- Detect, classify and count (2023)
-- OCR (2023)
-- ETNA: resnet50, onnx, coreml, synthetic data, calibration api (2021)
-- dlai - mlops: tflite android, tfx (2021)
-- tf mlops: coreml ios (2021)
-- Sentiment Analysis on Movies Reviews (2019)
-- Energy Consumption Prediction (2019)
+- Pigio (2019)
+- ETNA (2021)
+- MDA (2020)
 - Neural Machine Translation (2018)
+- Energy Consumption Prediction (2019)
+- Sentiment Analysis on Movies Reviews (2019)
+- OCR (2023)
+- Detect, classify and count (2023)
+- NLP Spec (2023)
+- TF Spec (2021)
+- MLOps Spec (2021)
+- GANs Spec (2023)
 
-#### Non - Data Science | Machine Learning
+## Non - Data Science and Machine Learning Projects
 
-- Asteroid Shooter (2023)
-- Frogger (2023)
-- Western Shooter (2023)
-- Contra (2023)
-- Blade Frogger (2023)
-- Tower Defense (2023)
-- GameBoy Emulator (2023)
+---
+
+Asteroid Shooter (2023)
+
+---
+
+Frogger (2023)
+
+---
+
+Western Shooter (2023)
+
+---
+
+Contra (2023)
+
+---
+
+Blade Frogger (2023)
+
+---
+
+Tower Defense (2023)
+
+---
+
+GameBoy Emulator (2023)

@@ -12,7 +12,7 @@
 
 > This a generalized version of the project. The code, architecture, and data are property of the client and cannot be shared.
 
-A deep learning eye-tracking system for [Innodem Neurosciences](https://innodemneurosciences.com/), an audio streaming service for wellness content, powered by a recommendation system.
+A deep learning eye-tracking system for [Innodem Neurosciences](https://innodemneurosciences.com/), an...
 
 ### Business Problem
 
