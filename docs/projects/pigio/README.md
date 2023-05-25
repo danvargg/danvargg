@@ -12,12 +12,12 @@
 
 A deep learning eye-tracking system for [Innodem Neurosciences](https://innodemneurosciences.com/) to help patients communicate using only eye movements.
 
-The system powers both [Pigio™: Gaze-to-Speech](
-https://apps.apple.com/us/app/pigio-gaze-to-speech/id1399641303) and [Pigio™ ICU: Gaze-to-Speech](
+The system powers both the [Pigio™: Gaze-to-Speech](
+https://apps.apple.com/us/app/pigio-gaze-to-speech/id1399641303) and the [Pigio™ ICU: Gaze-to-Speech](
 https://apps.apple.com/us/app/pigio-icu-gaze-to-speech/id1466945385) applications.
 These Software-as-a-Medical-Device (SaaMD) applications allow Intensive Care Unit patients (conscious but intubated or paralyzed) to communicate through eye movements.
 
-[//]: # (MS: https://apps.apple.com/us/app/etna-ndhc-ms/id1575499467)
+
 
 ### Business Problem
 

@@ -2,7 +2,9 @@
 
 ---
 
-**Scikit-Learn Ridge Regression for CoreML:** An `Open Source` contribution to support Ridge Regression deployment on Apple devices. Implemented in [coremltools 6.2](https://github.com/apple/coremltools/releases/tag/6.2) release. [Code](https://github.com/apple/coremltools/pull/1707)
+**Scikit-Learn Ridge Regression for CoreML:** An `Open Source` contribution to support Ridge Regression deployment on 
+Apple devices. Implemented in [coremltools 6.2](https://github.com/apple/coremltools/releases/tag/6.2) release. [Code](
+https://github.com/apple/coremltools/pull/1707)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
@@ -10,7 +12,27 @@
 
 ---
 
-**Deep Learning System for Eye Gaze Tracking:** A `Computer Vision` eye-tracking system powered with deep learning for a family of Gaze-to-Speech Software-as-a-Medical-Device (SaaMD) iOS applications. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/README.md) 
+**Deep Learning System for Evaluation and Monitoring of Multiple Sclerosis (MS):** A `Computer Vision` eye-tracking 
+system powered with deep learning for a neurological disorder evaluation and monitoring Software-as-a-Medical-Device 
+(SaaMD) application. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/README.md) 
+
+![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
+![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
+![Numpy](https://img.shields.io/badge/-Numpy-000000?style=flat&logo=Numpy)
+![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
+![Keras](https://img.shields.io/badge/-Keras-000000?style=flat&logo=Keras)
+![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat&logo=Tensorflow)
+![OpenCV](https://img.shields.io/badge/-OpenCV-000000?style=flat&logo=OpenCV)
+![Scipy](https://img.shields.io/badge/-Scipy-000000?style=flat&logo=Scipy)
+![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
+
+<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna.png">
+
+---
+
+**Deep Learning System for Eye Gaze Tracking:** A `Computer Vision` eye-tracking system powered with deep learning for 
+a family of Gaze-to-Speech Software-as-a-Medical-Device (SaaMD) applications. [Code](
+https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/README.md) 
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
@@ -24,7 +46,8 @@
 
 ---
 
-**Recommendation System:** A `Recommendation System` for an audio streaming service for wellness content. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md)
+**Recommendation System:** A `Recommendation System` for an audio streaming service for wellness content. [Code](
+https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazonaws)
@@ -46,7 +69,8 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-**Montreal Bixi Stations Status**: A `Data Visualization` dashboard to display Montreal's Bixi bike sharing system in real time. [Code](https://github.com/danvargg/r-bixi-mtl) | [Application](https://danvargg.shinyapps.io/bixi/)
+**Montreal Bixi Stations Status**: A `Data Visualization` dashboard to display Montreal's Bixi bike sharing system in 
+real time. [Code](https://github.com/danvargg/r-bixi-mtl) | [Application](https://danvargg.shinyapps.io/bixi/)
 
 ![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
 ![Shiny](
@@ -58,7 +82,9 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 ---
 
 **Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation 
-cameras (PTZ) in Montreal, in real-time. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/mtl_geo/mtl_cameras.Rmd) | [Application](https://rpubs.com/danvargg/geomap)
+cameras (PTZ) in Montreal, in real-time. [Code](
+https://github.com/danvargg/danvargg/blob/main/docs/projects/mtl_geo/mtl_cameras.Rmd) | [Application](
+https://rpubs.com/danvargg/geomap)
 
 ![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
 ![Shiny](
