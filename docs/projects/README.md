@@ -26,7 +26,7 @@ system powered with deep learning for a neurological disorder evaluation and mon
 ![Scipy](https://img.shields.io/badge/-Scipy-000000?style=flat&logo=Scipy)
 ![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
 
-<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna.png">
+<img width=60% height=60%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna.png">
 
 ---
 
