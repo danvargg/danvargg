@@ -17,6 +17,9 @@ evaluation and monitoring of neurological disorders.
 
 The system powers the [ETNA-NDHC-MS](https://apps.apple.com/us/app/etna-ndhc-ms/id1575499467) application.
 
+
+Change:
+
 The ETNA-NDHC-MS application is specifically designed for use in research-ethics-board (REB)-approved clinical studies 
 where only approved study personnel and participants who have signed an REB-approved consent form will be able to use 
 the application via a unique identifier code. The application is designed to record eye movements in healthy control 
