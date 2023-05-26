@@ -111,8 +111,6 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ### Data Science | Machine Learning Projects
 
-- Pigio (2019)
-- ETNA (2021)
 - MDA (2020)
 - Neural Machine Translation (2018)
 - Energy Consumption Prediction (2019)
@@ -125,31 +123,12 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 - GANs Spec (2023)
 
 ## Non - Data Science and Machine Learning Projects
-
----
-
-Asteroid Shooter (2023)
-
----
-
-Frogger (2023)
-
----
-
-Western Shooter (2023)
-
----
-
-Contra (2023)
-
----
-
-Blade Frogger (2023)
-
----
-
-Tower Defense (2023)
-
----
-
-GameBoy Emulator (2023)
+- 
+- GameBoy Emulator (2023)
+- Tower Defense (2023)
+- Vegetables Rain (2023)
+- Blade Frogger (2023)
+- Contra (2023)
+- Western Shooter (2023)
+- Frogger (2023)
+- Asteroid Shooter (2023)
