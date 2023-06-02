@@ -8,16 +8,17 @@
 ![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat&logo=Tensorflow)
 ![OpenCV](https://img.shields.io/badge/-OpenCV-000000?style=flat&logo=OpenCV)
 
-> This a generalized version of the project. The code, architecture, and data are property of the client and cannot be shared.
+> This a generalized version of the project. The specific code, architecture, and data are property of the client and 
+cannot be fully shared.
 
-A deep learning eye-tracking system for [Innodem Neurosciences](https://innodemneurosciences.com/) to help patients communicate using only eye movements.
+A deep learning eye-tracking system for [Innodem Neurosciences](https://innodemneurosciences.com/) to help patients 
+communicate using only eye movements.
 
 The system powers both the [Pigio™: Gaze-to-Speech](
 https://apps.apple.com/us/app/pigio-gaze-to-speech/id1399641303) and the [Pigio™ ICU: Gaze-to-Speech](
 https://apps.apple.com/us/app/pigio-icu-gaze-to-speech/id1466945385) applications.
-These Software-as-a-Medical-Device (SaaMD) applications allow Intensive Care Unit patients (conscious but intubated or paralyzed) to communicate through eye movements.
-
-
+These Software-as-a-Medical-Device (SaaMD) applications allow Intensive Care Unit patients (conscious but intubated 
+or paralyzed) to communicate through eye movements.
 
 ### Business Problem
 
@@ -33,4 +34,5 @@ TBD.
 
 ### Business Results
 
-The deep learning system allowed the business to improve the performance of its eye  tracking technology to a level that is comparable or better than existing infrared solutions.
+The deep learning system allowed the business to improve the performance of its eye  tracking technology to a level 
+that is comparable or better than existing infrared solutions.
