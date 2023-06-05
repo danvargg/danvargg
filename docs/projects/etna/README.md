@@ -10,7 +10,8 @@
 ![Scipy](https://img.shields.io/badge/-Scipy-000000?style=flat&logo=Scipy)
 ![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
 
-> This a generalized version of the project. The specific code, architecture, and data are property of the client and cannot be fully shared.
+> This a generalized version of the project. The specific code, architecture, and data are property of the client and 
+cannot be fully shared.
 
 A deep learning eye-tracking system for [Innodem Neurosciences](https://innodemneurosciences.com/) to aid with the 
 evaluation and monitoring of neurological disorders.

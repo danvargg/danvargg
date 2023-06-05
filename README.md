@@ -40,7 +40,7 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 ![GCP](https://img.shields.io/badge/-GCP-000000?style=flat&logo=googlecloud)
 ![Heroku](https://img.shields.io/badge/-Heroku-000000?style=flat&logo=Heroku)
 ![OpenCV](https://img.shields.io/badge/-OpenCV-000000?style=flat&logo=OpenCV)
-![OpenCV](https://img.shields.io/badge/-Scikit_image-000000?style=flat&logo=Scikit-Image)
+![Scikit-Image](https://img.shields.io/badge/-Scikit_image-000000?style=flat&logo=Scikit-Image)
 ![Jupyter](https://img.shields.io/badge/-Jupyter-000000?style=flat&logo=Jupyter)
 ![Numpy](https://img.shields.io/badge/-Numpy-000000?style=flat&logo=Numpy)
 ![Matplotlib](https://img.shields.io/badge/-Matplotlib-000000?style=flat&logo=Matplotlib)
@@ -110,6 +110,10 @@ You can find my full resume [here](https://github.com/danvargg/danvargg/blob/mai
 - Computer Vision I - [OpenCV](https://opencv.org/courses/) (2020)
 - Certified Azure Data Scientist Associate - [Microsoft](https://learn.microsoft.com/en-us/certifications/azure-data-scientist/) (2020)
 - Microsoft Professional Program in Artificial Intelligence - [Microsoft](https://partner.microsoft.com/en-hk/marketing/mpn/mpp) (2018)
+
+#### Courses
+
+- TBD
 
 You can find all my certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
 

@@ -4,7 +4,7 @@
 
 **Scikit-Learn Ridge Regression for CoreML:** An `Open Source` contribution to support Ridge Regression deployment on 
 Apple devices. Implemented in [coremltools 6.2](https://github.com/apple/coremltools/releases/tag/6.2) release. [Code](
-https://github.com/apple/coremltools/pull/1707)
+https://github.com/apple/coremltools/pull/1707) - (2022)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
@@ -27,6 +27,25 @@ system powered with deep learning for a neurological disorder evaluation and mon
 ![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
 
 <img width=40% height=40%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna.png">
+
+---
+
+**Data Science Training Program:** A comprehensive data science training program for a team of data analysts for 
+[Master Data Analysis](https://www.linkedin.com/company/master-data-analysis/). [Code](
+https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/README.md) 
+
+![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
+![Azure](https://img.shields.io/badge/-Azure-000000?style=flat&logo=microsoft-azure)
+![Jupyter](https://img.shields.io/badge/-Jupyter-000000?style=flat&logo=Jupyter)
+![Numpy](https://img.shields.io/badge/-Numpy-000000?style=flat&logo=Numpy)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-000000?style=flat&logo=Matplotlib)
+![Scipy](https://img.shields.io/badge/-Scipy-000000?style=flat&logo=Scipy)
+![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
+![Scikit-Learn](https://img.shields.io/badge/-Scikit_Learn-000000?style=flat&logo=Scikit-Learn)
+![Anaconda](https://img.shields.io/badge/-Anaconda-000000?style=flat&logo=Anaconda)
+![VSCode](https://img.shields.io/badge/-VSCode-000000?style=flat&logo=visual-studio-code&logoColor=007ACC)
+
+<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/mda.png">
 
 ---
 
