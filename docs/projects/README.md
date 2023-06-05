@@ -10,6 +10,8 @@ https://github.com/apple/coremltools/pull/1707) - (2022)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
 ![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
 
+<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/coremltools/coreml.png">
+
 ---
 
 **Deep Learning System for Evaluation and Monitoring of Multiple Sclerosis (MS):** A `Computer Vision` eye-tracking 
@@ -26,7 +28,7 @@ system powered with deep learning for a neurological disorder evaluation and mon
 ![Scipy](https://img.shields.io/badge/-Scipy-000000?style=flat&logo=Scipy)
 ![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
 
-<img width=40% height=40%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna.png">
+<img width=30% height=30%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna.png">
 
 ---
 
