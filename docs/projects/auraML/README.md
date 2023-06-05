@@ -14,18 +14,16 @@ powered by a recommendation system.
 
 The goal was to recommend the best meditation(s) for a user to maximize rating, given input parameters.
 
-### Solution Strategy
+### Implementation
+
+<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/auraml.png">
 
 For new users a `collaborative filtering` model was implemented through an `SVD` algorithm. For existing users, a 
 `Content-based filtering` model was implemented through a `Random Forest` algorithm, after also being tested through a 
 `KNN` algorithm.
 
-### Implementation
-
-<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/auraml.png">
-
-A `Random Forest Regressor` was trained on the `meditation` dataset to predict the rating of a meditation given the 
-input parameters. The model was deployed on `AWS Lambda` and `AWS API Gateway` to be used as a REST API.
+A `Random Forest Regressor` and `SVD` models were trained on the `meditation` dataset to predict the rating of a 
+meditation given the  input parameters. Each model was deployed on an `AWS Lambda` to be used as a REST API.
 
 The output was  an array of `meditationID` in order of recommendation (highest predicted rating first)
 

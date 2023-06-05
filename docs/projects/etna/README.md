@@ -34,11 +34,9 @@ will not provide the user with any clinical or medical information following the
 
 TBD.
 
-### Solution Strategy
-
-TBD.
-
 ### Implementation
+
+https://github.com/hugochan/Eye-Tracker
 
 <img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/images/data_flow.png">
 
