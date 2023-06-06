@@ -37,7 +37,7 @@ amount of frames.
 
 The resulting video (and `.json` metadata) of the user's face was then processed to crop both eyes regions and facial 
 landmarks. The eye crops and facial landmarks served as input features for the model and the stimuli coordinates as 
-the output for training.
+the output for training. These features were processed using `dlib`'s facial landmark detector.
 
 #### 2. Model Architecture
 
@@ -59,7 +59,7 @@ application. This model served as a feature extractor.
 
 Once the application was downloaded and installed by the user, the model was calibrated (tuned) to the user's eyes.
 This tuning was done by the user following a predefined stimuli pattern on the screen. The model's predictions were then 
-sent to a server where a fine-tuning cycle:
+sent to a server where a fine-tuning cycle was performed:
 
 - The model's predictions served as input features for a tuning `regressor` and the stimuli's coordinates served as 
 outputs once again. 
@@ -67,7 +67,7 @@ outputs once again.
 - The converted model was sent back to the application and used for eye gaze tracking in conjunction with the feature 
 extractor model.
 
-This fine tuning allowed the model to provide more accurate and personalized eye gaze predictions to the user's eyes.
+This fine-tuning allowed the model to provide more accurate and personalized eye gaze predictions to the user's eyes.
 
 ### Business Results
 

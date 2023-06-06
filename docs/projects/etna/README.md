@@ -17,7 +17,8 @@ A deep learning eye-tracking system for [Innodem Neurosciences](https://innodemn
 evaluation and monitoring of neurological disorders. The system powers the [ETNA-NDHC-MS](
 https://apps.apple.com/us/app/etna-ndhc-ms/id1575499467) mobile application. 
 This project is an iteration of the [Deep Learning System for Eye Gaze Tracking](
-https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/README.md) project.
+https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/README.md) project. The data flow in both projects is 
+similar, but the model architecture and training process are different.
 
 The `ETNA-NDHC-MS` mobile application is designed to record eye movements in healthy control participants during visual 
 tests presented on the iPad to help investigate the link between eye movements and disease progression in patients with 
@@ -32,11 +33,52 @@ processing and analysis.
 
 ### Implementation
 
+<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/images/data_flow.png">
+
 #### 1. Data Collection and Processing
 
-[//]: # (https://github.com/hugochan/Eye-Tracker)
+The data was a collection of artificially generated videos of the users faces and stimuli coordinates. The stimuli
+coordinates were generated using a predefined pattern on the screen. The stimuli pattern was designed to cover the 
+entire screen and to be presented in a random order.
 
-[//]: # (<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/images/data_flow.png">)
+The resulting synthetic video data (and `.json` metadata) was then processed to crop both eyes regions and facial 
+landmarks. The face crop, eyes crops and facial landmarks served as input features for the model and the stimuli 
+coordinates as the output for training. These features were processed using `mediapipe`'s facial landmark detector on 
+the server and `ARKit`'s facial landmark detector on the iPad.
+
+#### 2. Model Architecture
+
+The model architecture was an improved `Residual Neural Network (ResNet)` inspired by [Eye Tracking for Everyone](
+https://arxiv.org/abs/1606.05814).
+
+<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna_resnet.png">
+
+Each input `ResNet` model was a `pre-trained` image classifier with the last layer removed. The model was then concatenated 
+with multiple dense layers and a final regression layer.
+
+#### 3. Model Training
+
+The model was trained using `Tensorflow 2.x` on `AWS EC2` instances with multiple `Nvidia Tesla V100` GPUs.
+The generated synthetic data was used to train the model and then predict the stimuli coordinates on real users.
+
+#### 4. Model Deployment
+
+The trained model checkpoint was converted to `CoreML` and with the user of `coremltools` and deployed to the iOS mobile 
+application. This model served as a feature extractor.
+
+#### 5. Model Serving
+
+Once the application was downloaded and installed by the user, the model was calibrated (tuned) to the user's eyes.
+This tuning was done by the user following a predefined stimuli pattern on the screen. The model's embeddings 
+(last dense layer predictions) were then sent to a server where a fine-tuning cycle was performed:
+
+- The model's embeddings served as input features for a tuning `regressor` and the stimuli's coordinates served as 
+outputs once again. 
+- The trained regressor was evaluated and converted with `coremltools` to a `CoreML` model.
+- The converted model was sent back to the application and used for eye gaze tracking in conjunction with the feature 
+extractor model.
+
+This fine-tuning allowed the model to provide more accurate and personalized eye gaze predictions to the user's eyes.
 
 ### Business Results
 
