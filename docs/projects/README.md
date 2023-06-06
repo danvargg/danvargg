@@ -130,21 +130,8 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ## Coming soon
 
-### Data Science | Machine Learning Projects
+### Non - Data Science and Machine Learning Projects
 
-- MDA (2020)
-- Neural Machine Translation (2018)
-- Energy Consumption Prediction (2019)
-- Sentiment Analysis on Movies Reviews (2019)
-- OCR (2023)
-- Detect, classify and count (2023)
-- NLP Spec (2023)
-- TF Spec (2021)
-- MLOps Spec (2021)
-- GANs Spec (2023)
-
-## Non - Data Science and Machine Learning Projects
-- 
 - GameBoy Emulator (2023)
 - Tower Defense (2023)
 - Vegetables Rain (2023)

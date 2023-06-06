@@ -14,34 +14,32 @@
 cannot be fully shared.
 
 A deep learning eye-tracking system for [Innodem Neurosciences](https://innodemneurosciences.com/) to aid with the 
-evaluation and monitoring of neurological disorders.
+evaluation and monitoring of neurological disorders. The system powers the [ETNA-NDHC-MS](
+https://apps.apple.com/us/app/etna-ndhc-ms/id1575499467) mobile application. 
+This project is an iteration of the [Deep Learning System for Eye Gaze Tracking](
+https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/README.md) project.
 
-The system powers the [ETNA-NDHC-MS](https://apps.apple.com/us/app/etna-ndhc-ms/id1575499467) application.
-
-
-Change:
-
-The ETNA-NDHC-MS application is specifically designed for use in research-ethics-board (REB)-approved clinical studies 
-where only approved study personnel and participants who have signed an REB-approved consent form will be able to use 
-the application via a unique identifier code. The application is designed to record eye movements in healthy control 
-participants during visual tests presented on the iPad to help investigate the link between eye movements and disease 
-progression in patients with Multiple Sclerosis (MS). To do so, the application makes use of Innodem Neurosciences' 
-patented eye-tracking technology using the iPad's camera. The data collected by this application are being used to 
-validate the application and its underlying algorithms within the context of REB-approved clinical studies. No data is 
-currently being used to provide medical guidance to patients and/or medical professionals, and the application itself 
-will not provide the user with any clinical or medical information following the completion of the visual tests.
+The `ETNA-NDHC-MS` mobile application is designed to record eye movements in healthy control participants during visual 
+tests presented on the iPad to help investigate the link between eye movements and disease progression in patients with 
+Multiple Sclerosis (MS). To do so, the application makes use of `Innodem Neurosciences'` patented eye-tracking technology 
+using the iPad's camera.
 
 ### Business Problem
 
-TBD.
+The goal was to develop a system that could record patients' eye movements during visual tests presented on screen. 
+The system had to be able to run in real-time on the iPad, providing precise predictions for eye movement signal 
+processing and analysis.
 
 ### Implementation
 
-https://github.com/hugochan/Eye-Tracker
+#### 1. Data Collection and Processing
 
-<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/images/data_flow.png">
+[//]: # (https://github.com/hugochan/Eye-Tracker)
+
+[//]: # (<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/images/data_flow.png">)
 
 ### Business Results
 
-The deep learning system allowed the business to improve the performance of its eye  tracking technology to a level 
-that is comparable or better than existing infrared solutions.
+The deep learning system allowed the business to record precise eye movements in real-time during every visual test 
+presented on screen. The business was able to acquire precise eye movement signals to evaluate and monitor neurological 
+disorders over time.
