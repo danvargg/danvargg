@@ -1,10 +1,10 @@
 ### Hi there 👋
 
-My name is Daniel Vargas, and I'm an Industrial Engineer turned into Data Scientist and Machine Learning Engineer.
-I have 16+ years of overall experience.
-For 6+ years I've been solving computer vision, natural language processing (NLP) and numerical business problems
-through applied Data
-Science, Machine Learning, and Deep Learning.
+My name is Daniel Vargas, and for the last 8+ years I've been delivering predictive analytics solutions to solve 
+business problems in multiple industries. Though Data Science, Machine Learning and Deep Learning, I have been solving 
+Computer Vision and Natural Language Processing (NLP) problems.
+I have also been designing, developing, optimize, and operationalizing (MLOPs) machine learning models that deliver 
+business value and competitive advantage for my clients and employers.
 
 [![Linkedin: danvargg](
 https://img.shields.io/badge/-danvargg-blue?style=flat-square&logo=Linkedin&logoColor=white&link=linkedin.com/in/danvargg/
@@ -69,7 +69,7 @@ https://huggingface.co/models?filter=keytotext)
 <details>
   <summary>Click me</summary>
 
-- Director, AI Development - [Innodem Neurosciences](https://www.linkedin.com/company/innodem-neurosciences/) (2021 - 2023)
+- Lead, AI Development - [Innodem Neurosciences](https://www.linkedin.com/company/innodem-neurosciences/) (2021 - 2023)
 - Data Science Consultant (Contract) - [Master Data Analysis](https://www.linkedin.com/company/master-data-analysis/) (2020 - 2023)
 - Deep Learning Engineer (Contract) - [Innodem Neurosciences](https://www.linkedin.com/company/innodem-neurosciences/) (2019 - 2021)
 - Sr. Business Systems Analyst (OT) - [Canadian National](https://www.linkedin.com/company/cn/) (2018 - 2018)
@@ -113,7 +113,10 @@ You can find my full resume [here](https://github.com/danvargg/danvargg/blob/mai
 
 #### Courses
 
-- TBD
+- ChatGPT Prompt Engineering for Developers - [DeepLearning.AI](https://www.deeplearning.ai/short-courses/) (2023)
+- Building Systems with the ChatGPT API - [DeepLearning.AI](https://www.deeplearning.ai/short-courses/) (2023)
+- LangChain for LLM Application Development - [DeepLearning.AI](https://www.deeplearning.ai/short-courses/) (2023)
+- How Diffusion Models Work - [DeepLearning.AI](https://www.deeplearning.ai/short-courses/) (2023)
 
 You can find all my certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
 
