@@ -95,7 +95,6 @@ You can find my full resume [here](https://github.com/danvargg/danvargg/blob/mai
 #### Education
 
 - Natural Language Processing (NLP) Specialization ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2023)
-- Practical Data Science on the AWS Cloud ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2023)
 - Machine Learning Engineering for Production (MLOps) Specialization ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2021)
 - Data Engineering Nanodegree - ([Udacity](https://www.udacity.com/)) (2020)
 - Machine Learning Engineer Nanodegree - ([Udacity](https://www.udacity.com/)) (2019)
@@ -110,13 +109,6 @@ You can find my full resume [here](https://github.com/danvargg/danvargg/blob/mai
 - Computer Vision I - [OpenCV](https://opencv.org/courses/) (2020)
 - Certified Azure Data Scientist Associate - [Microsoft](https://learn.microsoft.com/en-us/certifications/azure-data-scientist/) (2020)
 - Microsoft Professional Program in Artificial Intelligence - [Microsoft](https://partner.microsoft.com/en-hk/marketing/mpn/mpp) (2018)
-
-#### Courses
-
-- ChatGPT Prompt Engineering for Developers - [DeepLearning.AI](https://www.deeplearning.ai/short-courses/) (2023)
-- Building Systems with the ChatGPT API - [DeepLearning.AI](https://www.deeplearning.ai/short-courses/) (2023)
-- LangChain for LLM Application Development - [DeepLearning.AI](https://www.deeplearning.ai/short-courses/) (2023)
-- How Diffusion Models Work - [DeepLearning.AI](https://www.deeplearning.ai/short-courses/) (2023)
 
 You can find all my certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
 

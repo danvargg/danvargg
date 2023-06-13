@@ -49,6 +49,7 @@ https://arxiv.org/abs/1606.05814), where the inputs were each eye crop and the o
 #### 3. Model Training
 
 The model was trained using `Tensorflow 2.x` on `AWS EC2` instances with multiple `Nvidia Tesla V100` GPUs.
+Data augmentation techniques (cropping, flipping, rotation, etc.) were added during training time to improve the model's generalization.
 
 #### 4. Model Deployment
 

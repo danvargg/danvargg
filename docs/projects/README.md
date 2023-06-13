@@ -2,21 +2,9 @@
 
 ---
 
-**Scikit-Learn Ridge Regression for CoreML:** An `Open Source` contribution to support Ridge Regression deployment on 
-Apple devices. Implemented in [coremltools 6.2](https://github.com/apple/coremltools/releases/tag/6.2) release. [Code](
-https://github.com/apple/coremltools/pull/1707) - (2022)
-
-![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
-![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
-![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
-
-<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/coremltools/coreml.png">
-
----
-
-**Deep Learning System for Evaluation and Monitoring of Multiple Sclerosis (MS):** A `Computer Vision` eye-tracking 
-system powered with deep learning for a neurological disorder evaluation and monitoring Software-as-a-Medical-Device 
-(SaaMD) application. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/README.md) 
+**Deep Learning System for Evaluation and Monitoring of Multiple Sclerosis (MS):** A `Computer Vision` eye-tracking
+system powered with deep learning for a neurological disorder evaluation and monitoring Software-as-a-Medical-Device
+(SaaMD) application. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/README.md)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
@@ -32,9 +20,25 @@ system powered with deep learning for a neurological disorder evaluation and mon
 
 ---
 
-**Data Science Training Program:** A comprehensive data science training program for a team of data analysts for 
+**Deep Learning System for Eye Gaze Tracking:** A `Computer Vision` eye-tracking system powered with deep learning for
+a family of Gaze-to-Speech Software-as-a-Medical-Device (SaaMD) applications. [Code](
+https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/README.md)
+
+![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
+![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
+![Numpy](https://img.shields.io/badge/-Numpy-000000?style=flat&logo=Numpy)
+![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
+![Keras](https://img.shields.io/badge/-Keras-000000?style=flat&logo=Keras)
+![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat&logo=Tensorflow)
+![OpenCV](https://img.shields.io/badge/-OpenCV-000000?style=flat&logo=OpenCV)
+
+<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/images/eye-gaze.png">
+
+---
+
+**Data Science Training Program:** A comprehensive data science training program for a team of data analysts for
 [Master Data Analysis](https://www.linkedin.com/company/master-data-analysis/). [Code](
-https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/README.md) 
+https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/README.md)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![Azure](https://img.shields.io/badge/-Azure-000000?style=flat&logo=microsoft-azure)
@@ -51,19 +55,15 @@ https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/README.md)
 
 ---
 
-**Deep Learning System for Eye Gaze Tracking:** A `Computer Vision` eye-tracking system powered with deep learning for 
-a family of Gaze-to-Speech Software-as-a-Medical-Device (SaaMD) applications. [Code](
-https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/README.md) 
+**Scikit-Learn Ridge Regression for CoreML:** An `Open Source` contribution to support Ridge Regression deployment on
+Apple devices. Implemented in [coremltools 6.2](https://github.com/apple/coremltools/releases/tag/6.2) release. [Code](
+https://github.com/apple/coremltools/pull/1707)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
-![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
-![Numpy](https://img.shields.io/badge/-Numpy-000000?style=flat&logo=Numpy)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
-![Keras](https://img.shields.io/badge/-Keras-000000?style=flat&logo=Keras)
-![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat&logo=Tensorflow)
-![OpenCV](https://img.shields.io/badge/-OpenCV-000000?style=flat&logo=OpenCV)
+![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
 
-<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/images/eye-gaze.png">
+<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/coremltools/coreml.png">
 
 ---
 
@@ -78,7 +78,7 @@ https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md)
 
 ---
 
-**Next word prediction:** A `Natural Language Processing (NLP)` application that predicts the following word in a 
+**Next word prediction:** A `Natural Language Processing (NLP)` application that predicts the following word in a
 prompt. [Code](https://github.com/danvargg/r-next-word) | [Application](https://danvargg.shinyapps.io/shiny/)
 
 ![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
@@ -90,7 +90,7 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-**Montreal Bixi Stations Status**: A `Data Visualization` dashboard to display Montreal's Bixi bike sharing system in 
+**Montreal Bixi Stations Status**: A `Data Visualization` dashboard to display Montreal's Bixi bike sharing system in
 real time. [Code](https://github.com/danvargg/r-bixi-mtl) | [Application](https://danvargg.shinyapps.io/bixi/)
 
 ![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)
@@ -102,7 +102,7 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-**Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation 
+**Interactive Geolocation Map**: A `Data Visualization` application that shows the location of road observation
 cameras (PTZ) in Montreal, in real-time. [Code](
 https://github.com/danvargg/danvargg/blob/main/docs/projects/mtl_geo/mtl_cameras.Rmd) | [Application](
 https://rpubs.com/danvargg/geomap)
@@ -116,7 +116,7 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-**Brasil Temperature and Precipitation**: A `Data Visualization` dashboard to analyze temperature and precipitation 
+**Brasil Temperature and Precipitation**: A `Data Visualization` dashboard to analyze temperature and precipitation
 projections for communities across Brasil. [Code](https://github.com/danvargg/brasil-climate/tree/main)
 
 ![R](https://img.shields.io/badge/-R-000000?style=flat&logo=R)

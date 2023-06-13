@@ -60,6 +60,7 @@ with multiple dense layers and a final regression layer.
 
 The model was trained using `Tensorflow 2.x` on `AWS EC2` instances with multiple `Nvidia Tesla V100` GPUs.
 The generated synthetic data was used to train the model and then predict the stimuli coordinates on real users.
+The model training was monitored and evaluated through [Weights & Biases](https://wandb.ai/site).
 
 #### 4. Model Deployment
 
