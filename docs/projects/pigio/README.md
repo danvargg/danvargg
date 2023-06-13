@@ -70,6 +70,9 @@ extractor model.
 
 This fine-tuning allowed the model to provide more accurate and personalized eye gaze predictions to the user's eyes.
 
+Furthermore, the model had it's weights quantized (post-conversion) to `16-bit` floating-point numbers to reduce the model's size and 
+improve the inference speed.
+
 ### Business Results
 
 The deep learning system allowed the business to improve the performance of its eye  tracking technology to a level 

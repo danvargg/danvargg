@@ -56,6 +56,9 @@ https://arxiv.org/abs/1606.05814).
 Each input `ResNet` model was a `pre-trained` image classifier with the last layer removed. The model was then concatenated 
 with multiple dense layers and a final regression layer.
 
+This architecture was unit tested to ensure all layers of the model were compatible with Apple's `Apple Neural Engine
+(ANE)` and could run on the iPad in real-time.
+
 #### 3. Model Training
 
 The model was trained using `Tensorflow 2.x` on `AWS EC2` instances with multiple `Nvidia Tesla V100` GPUs.

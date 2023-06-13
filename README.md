@@ -2,7 +2,7 @@
 
 My name is Daniel Vargas, and for the last 8+ years I've been delivering predictive analytics solutions to solve 
 business problems in multiple industries. Though Data Science, Machine Learning and Deep Learning, I have been solving 
-Computer Vision and Natural Language Processing (NLP) problems.
+Computer Vision, Natural Language Processing (NLP) and structured data problems.
 I have also been designing, developing, optimize, and operationalizing (MLOPs) machine learning models that deliver 
 business value and competitive advantage for my clients and employers.
 
