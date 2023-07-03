@@ -53,6 +53,8 @@ https://img.shields.io/badge/-danvargg@gmail.com-red?style=flat-square&logo=gmai
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-black)](
 https://huggingface.co/models?filter=keytotext)
 ![Anaconda](https://img.shields.io/badge/-Anaconda-000000?style=flat&logo=Anaconda)
+![MLFlow](https://img.shields.io/badge/-MLFlow-000000?style=flat&logo=mlflow)
+![MLFlow](https://img.shields.io/badge/-HyperOpt-000000?style=flat&logo=hyperopt)
 ![VSCode](https://img.shields.io/badge/-VSCode-000000?style=flat&logo=visual-studio-code&logoColor=007ACC)
 ![PyCharm](https://img.shields.io/badge/-PyCharm-000000?style=flat&logo=PyCharm)
 ![Github_Copilot](https://img.shields.io/badge/-Github_Copilot-000000?style=flat&logo=GithubCopilot)
@@ -94,10 +96,7 @@ You can find my full resume [here](https://github.com/danvargg/danvargg/blob/mai
 
 #### Education
 
-- Natural Language Processing (NLP) Specialization ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2023)
 - Machine Learning Engineering for Production (MLOps) Specialization ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2021)
-- Data Engineering Nanodegree - ([Udacity](https://www.udacity.com/)) (2020)
-- Machine Learning Engineer Nanodegree - ([Udacity](https://www.udacity.com/)) (2019)
 - Deep Learning Specialization - ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2018)
 - Data Science Specialization - ([Johns Hopkins University Advanced Academic Programs](https://advanced.jhu.edu/)) - Coursera (2017)
 - MEng. Engineering Management - [University of Ottawa](https://www.uottawa.ca/en) (2014)
@@ -105,8 +104,6 @@ You can find my full resume [here](https://github.com/danvargg/danvargg/blob/mai
 
 #### Certifications
 
-- Computer Vision II - [OpenCV](https://opencv.org/courses/) (2021)
-- Computer Vision I - [OpenCV](https://opencv.org/courses/) (2020)
 - Certified Azure Data Scientist Associate - [Microsoft](https://learn.microsoft.com/en-us/certifications/azure-data-scientist/) (2020)
 - Microsoft Professional Program in Artificial Intelligence - [Microsoft](https://partner.microsoft.com/en-hk/marketing/mpn/mpp) (2018)
 
