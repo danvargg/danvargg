@@ -96,6 +96,7 @@ You can find my full resume [here](https://github.com/danvargg/danvargg/blob/mai
 
 #### Education
 
+- Generative Adversarial Networks (GANs) Specialization ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2023)
 - Machine Learning Engineering for Production (MLOps) Specialization ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2021)
 - Deep Learning Specialization - ([DeepLEarning.AI](https://www.deeplearning.ai/)) - Coursera (2018)
 - Data Science Specialization - ([Johns Hopkins University Advanced Academic Programs](https://advanced.jhu.edu/)) - Coursera (2017)
