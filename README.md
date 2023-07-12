@@ -18,6 +18,7 @@ I'm Daniel Vargas.
 ![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat&logo=Markdown)
 ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=Flask)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
+![Django](https://img.shields.io/badge/-Django-000000?style=flat&logo=Django)
 ![Postman](https://img.shields.io/badge/-Postman-000000?style=flat&logo=Postman)
 ![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=Git)
 ![Github](https://img.shields.io/badge/-Github-000000?style=flat&logo=Github)
