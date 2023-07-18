@@ -10,7 +10,7 @@
 
 ---
 
-## <center>Deep Learning</center>
+## <p align="center">Deep Learning</p>
 
 **Deep Learning System for Evaluation and Monitoring of Multiple Sclerosis (MS):** A `Computer Vision` eye-tracking
 system powered with deep learning for a neurological disorder evaluation and monitoring Software-as-a-Medical-Device
@@ -46,7 +46,7 @@ https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/README.md)
 
 ---
 
-## <center>Consulting</center>
+## <p align="center">Consulting</p>
 
 **Data Science Training Program:** A comprehensive data science training program for a team of data analysts for
 [Master Data Analysis](https://www.linkedin.com/company/master-data-analysis/). [Code](
@@ -65,7 +65,7 @@ https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/README.md)
 
 <img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/mda.png">
 
-## <center>Open Source Contributions</center>
+## <p align="center">Open Source Contributions</p>
 
 ---
 
@@ -81,7 +81,7 @@ https://github.com/apple/coremltools/pull/1707)
 
 ---
 
-## <center>Machine Learning</center>
+## <p align="center">Machine Learning</p>
 
 **Recommendation System:** A `Recommendation System` for an audio streaming service for wellness content. [Code](
 https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md)
@@ -106,9 +106,9 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-## <center>Data Engineering (WIP)</center>
+## <p align="center">Data Engineering (WIP)</p>
 
-## <center>Data Visualization</center>
+## <p align="center">Data Visualization</p>
 
 **Montreal Bixi Stations Status**: A `Data Visualization` dashboard to display Montreal's Bixi bike sharing system in
 real time. [Code](https://github.com/danvargg/r-bixi-mtl) | [Application](https://danvargg.shinyapps.io/bixi/)
