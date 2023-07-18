@@ -1,4 +1,14 @@
-## Data Science and Machine Learning Projects
+## Projects
+
+- [Deep Learning](#deep-learning)
+- [Consulting](#consulting)
+- [Open Source Contributions](#open-source-contributions)
+- [Machine Learning](#machine-learning)
+- [Data Visualization](#data-visualization)
+- [Video Games](#video-games)
+
+
+## Deep Learning
 
 ---
 
@@ -36,6 +46,10 @@ https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/README.md)
 
 ---
 
+## Consulting
+
+---
+
 **Data Science Training Program:** A comprehensive data science training program for a team of data analysts for
 [Master Data Analysis](https://www.linkedin.com/company/master-data-analysis/). [Code](
 https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/README.md)
@@ -55,6 +69,10 @@ https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/README.md)
 
 ---
 
+## Open Source Contributions
+
+---
+
 **Scikit-Learn Ridge Regression for CoreML:** An `Open Source` contribution to support Ridge Regression deployment on
 Apple devices. Implemented in [coremltools 6.2](https://github.com/apple/coremltools/releases/tag/6.2) release. [Code](
 https://github.com/apple/coremltools/pull/1707)
@@ -64,6 +82,10 @@ https://github.com/apple/coremltools/pull/1707)
 ![coremltools](https://img.shields.io/badge/-coremltools-000000?style=flat&logo=Coremltools)
 
 <img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/coremltools/coreml.png">
+
+---
+
+## Machine Learning
 
 ---
 
@@ -87,6 +109,10 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 )
 
 <img src="https://github.com/danvargg/r-next-word/blob/main/images/next_word.PNG">
+
+---
+
+## Data Visualization
 
 ---
 
@@ -128,15 +154,15 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-## Coming soon
+## Video Games (WIP)
 
-### Non - Data Science and Machine Learning Projects
+---
 
-- GameBoy Emulator (2023)
-- Tower Defense (2023)
-- Vegetables Rain (2023)
-- Blade Frogger (2023)
-- Contra (2023)
-- Western Shooter (2023)
-- Frogger (2023)
-- Asteroid Shooter (2023)
+- GameBoy Emulator (TBD)
+- [Tower Defense](https://github.com/danvargg/tower_defense) (WIP)
+- [Vegetables Rain](https://github.com/danvargg/vegetable_rain) (WIP)
+- [Blade Frogger](https://github.com/danvargg/blade_frogger) (WIP)
+- [Contra](https://github.com/danvargg/contra) (WIP)
+- [Western Shooter](https://github.com/danvargg/western_shooter) (WIP)
+- [Frogger](https://github.com/danvargg/frogger) (WIP)
+- [Asteroid Shooter](https://github.com/danvargg/asteroid_shooter) (WIP)
