@@ -4,13 +4,13 @@
 - [Consulting](#consulting)
 - [Open Source Contributions](#open-source-contributions)
 - [Machine Learning](#machine-learning)
+- [Data Engineering](#data-engineering)
 - [Data Visualization](#data-visualization)
 - [Video Games](#video-games)
 
-
-## Deep Learning
-
 ---
+
+## <center>Deep Learning</center>
 
 **Deep Learning System for Evaluation and Monitoring of Multiple Sclerosis (MS):** A `Computer Vision` eye-tracking
 system powered with deep learning for a neurological disorder evaluation and monitoring Software-as-a-Medical-Device
@@ -46,9 +46,7 @@ https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/README.md)
 
 ---
 
-## Consulting
-
----
+## <center>Consulting</center>
 
 **Data Science Training Program:** A comprehensive data science training program for a team of data analysts for
 [Master Data Analysis](https://www.linkedin.com/company/master-data-analysis/). [Code](
@@ -67,9 +65,7 @@ https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/README.md)
 
 <img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/mda.png">
 
----
-
-## Open Source Contributions
+## <center>Open Source Contributions</center>
 
 ---
 
@@ -85,9 +81,7 @@ https://github.com/apple/coremltools/pull/1707)
 
 ---
 
-## Machine Learning
-
----
+## <center>Machine Learning</center>
 
 **Recommendation System:** A `Recommendation System` for an audio streaming service for wellness content. [Code](
 https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md)
@@ -112,9 +106,9 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-## Data Visualization
+## <center>Data Engineering (WIP)</center>
 
----
+## <center>Data Visualization</center>
 
 **Montreal Bixi Stations Status**: A `Data Visualization` dashboard to display Montreal's Bixi bike sharing system in
 real time. [Code](https://github.com/danvargg/r-bixi-mtl) | [Application](https://danvargg.shinyapps.io/bixi/)
@@ -154,9 +148,7 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-## Video Games (WIP)
-
----
+## <center>Video Games (WIP)</center>
 
 - GameBoy Emulator (TBD)
 - [Tower Defense](https://github.com/danvargg/tower_defense) (WIP)
