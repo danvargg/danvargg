@@ -148,7 +148,7 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-## <center>Video Games (WIP)</center>
+## <p align="center">Video Games (WIP)</p>
 
 - GameBoy Emulator (TBD)
 - [Tower Defense](https://github.com/danvargg/tower_defense) (WIP)
