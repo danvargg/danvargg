@@ -83,6 +83,16 @@ https://github.com/apple/coremltools/pull/1707)
 
 ## <p align="center">Machine Learning</p>
 
+**Sentence similarity model:** A `Narual Language Processing (NLP) Text Similarity` model to support the requirements analysis phase. [Code](
+https://github.com/danvargg/requirements-similarity)
+
+![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
+![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
+![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
+![NLTK](https://img.shields.io/badge/-NLTK-000000?style=flat&logo=NLTK)
+
+---
+
 **Recommendation System:** A `Recommendation System` for an audio streaming service for wellness content. [Code](
 https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md)
 
