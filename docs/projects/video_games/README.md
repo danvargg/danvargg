@@ -1,5 +1,7 @@
 ## Video Games Projects
 
+### Tech Stack
+
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![PyGame](https://img.shields.io/badge/-PyGame-000000?style=flat&logo=PyGame)
 ![GDScript](https://img.shields.io/badge/-GDScript-000000?style=flat&logo=GDScript)
@@ -11,7 +13,8 @@
 
 ---
 
-**Asteroid Shooter:** An asteroid shooter game built with`Pygame`. [Project](https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/README.md)
+**Asteroid Shooter:** An asteroid shooter game built with`Pygame`. [Project](
+https://github.com/danvargg/asteroid_shooter)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![PyGame](https://img.shields.io/badge/-PyGame-000000?style=flat&logo=PyGame)
@@ -20,13 +23,13 @@
 
 ---
 
-**Frogger.** [Project](https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/README.md)
+**Frogger:** A frogger game built with `Pygame`. [Project](https://github.com/danvargg/frogger/tree/main)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![PyGame](https://img.shields.io/badge/-PyGame-000000?style=flat&logo=PyGame)
 ![Tiled](https://img.shields.io/badge/-Tiled-000000?style=flat&logo=Tiled)
 
-<img width=30% height=30%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna.png">
+<img width=50% height=50%  src="https://github.com/danvargg/frogger/blob/main/images/frogger01.png">
 
 ---
 
