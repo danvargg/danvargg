@@ -1,7 +1,5 @@
 ## Video Games Projects
 
-### Tech Stack
-
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![PyGame](https://img.shields.io/badge/-PyGame-000000?style=flat&logo=PyGame)
 ![GDScript](https://img.shields.io/badge/-GDScript-000000?style=flat&logo=GDScript)
@@ -33,48 +31,46 @@ https://github.com/danvargg/asteroid_shooter)
 
 ---
 
-**Western Shooter.** [Project](https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/README.md)
+**Western Shooter:** A western shooter game built with `PyGame`. [Project](https://github.com/danvargg/western_shooter)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![PyGame](https://img.shields.io/badge/-PyGame-000000?style=flat&logo=PyGame)
 ![Tiled](https://img.shields.io/badge/-Tiled-000000?style=flat&logo=Tiled)
 
-<img width=30% height=30%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna.png">
+<img width=50% height=50%  src="https://github.com/danvargg/western_shooter/blob/main/images/shooter_00.png">
 
 ---
 
-**Contra.** [Project](https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/README.md)
+**Contra:** A Contra game built with `Pygame`. [Project](https://github.com/danvargg/contra)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![PyGame](https://img.shields.io/badge/-PyGame-000000?style=flat&logo=PyGame)
 ![Tiled](https://img.shields.io/badge/-Tiled-000000?style=flat&logo=Tiled)
 
-<img width=30% height=30%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna.png">
+<img width=50% height=50%  src="https://github.com/danvargg/contra/blob/main/images/image00.png">
 
 ---
 
-**Blade Frogger.** [Project](https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/README.md)
+**Blade Frogger:** A blade style frogger game built in `PyGame`. [Project](https://github.com/danvargg/blade_frogger)
 
 ![GDScript](https://img.shields.io/badge/-GDScript-000000?style=flat&logo=GDScript)
 ![Godot](https://img.shields.io/badge/-Godot-000000?style=flat&logo=Godot-Engine)
 ![Tiled](https://img.shields.io/badge/-Tiled-000000?style=flat&logo=Tiled)
 
-<img width=30% height=30%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna.png">
+<img width=50% height=50%  src="https://github.com/danvargg/blade_frogger/blob/master/images/image00.png">
 
 ---
 
-**Vegetables Rain.** [Project](https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/README.md)
+**Vegetables Rain:** A vegetables rain first person shooter built in `Godot`. [Project](https://github.com/danvargg/vegetable_rain/tree/master)
 
 ![GDScript](https://img.shields.io/badge/-GDScript-000000?style=flat&logo=GDScript)
 ![Godot](https://img.shields.io/badge/-Godot-000000?style=flat&logo=Godot-Engine)
 
-<img width=30% height=30%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna.png">
+<img width=50% height=50%  src="https://github.com/danvargg/vegetable_rain/blob/master/images/screen_03.png">
 
 ---
 
-**Tower Defense.** [Project](https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/README.md)
+**Tower Defense (WIP):** A tower defense game built with `Godot`. [Project](https://github.com/danvargg/tower_defense)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![PyGame](https://img.shields.io/badge/-PyGame-000000?style=flat&logo=PyGame)
-
-<img width=30% height=30%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna.png">
