@@ -1,12 +1,10 @@
-## Projects
+## Data Science Projects
 
 - [Deep Learning](#deep-learning)
 - [Consulting](#consulting)
 - [Open Source Contributions](#open-source-contributions)
 - [Machine Learning](#machine-learning)
-- [Data Engineering](#data-engineering)
 - [Data Visualization](#data-visualization)
-- [Video Games](#video-games)
 
 ---
 
@@ -116,8 +114,6 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 
 ---
 
-## <p align="center">Data Engineering (WIP)</p>
-
 ## <p align="center">Data Visualization</p>
 
 **Montreal Bixi Stations Status**: A `Data Visualization` dashboard to display Montreal's Bixi bike sharing system in
@@ -155,16 +151,3 @@ https://img.shields.io/badge/Shiny-blue?style=flat&labelColor=white&logo=RStudio
 )
 
 <img width=50% height=50% src="https://github.com/danvargg/brasil-climate/blob/main/images/brazil_temp.PNG">
-
----
-
-## <p align="center">Video Games (WIP)</p>
-
-- GameBoy Emulator (TBD)
-- [Tower Defense](https://github.com/danvargg/tower_defense) (WIP)
-- [Vegetables Rain](https://github.com/danvargg/vegetable_rain) (WIP)
-- [Blade Frogger](https://github.com/danvargg/blade_frogger) (WIP)
-- [Contra](https://github.com/danvargg/contra) (WIP)
-- [Western Shooter](https://github.com/danvargg/western_shooter) (WIP)
-- [Frogger](https://github.com/danvargg/frogger) (WIP)
-- [Asteroid Shooter](https://github.com/danvargg/asteroid_shooter) (WIP)

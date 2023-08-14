@@ -7,7 +7,10 @@ I'm Daniel Vargas.
 - 🌱 I’m currently learning C# and Unity
 - 💬 Ask me about Machine Learning Engineering, MLOps, Computer Vision and Natural Language Processing (NLP)
 - 📫 Feel free to reach out **danvargg@gmail.com** or [Linkedin: Daniel Vargas](https://www.linkedin.com/in/danvargg/)
-- 📝 Check out [My Portfolio of Projects](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md).
+- 📝 Check out my projects:
+  - [Data Science](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md)
+  - Continuous Improvement (TBD)
+  - [Video Games Design and Development](https://github.com/danvargg/danvargg/blob/main/docs/projects/video_games/README.md)
 
 ### My Tech Stack
 
