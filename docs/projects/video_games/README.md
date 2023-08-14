@@ -51,7 +51,7 @@ https://github.com/danvargg/asteroid_shooter)
 
 ---
 
-**Blade Frogger:** A blade style frogger game built in `PyGame`. [Project](https://github.com/danvargg/blade_frogger)
+**Blade Frogger:** A blade style frogger game built in `Godot`. [Project](https://github.com/danvargg/blade_frogger)
 
 ![GDScript](https://img.shields.io/badge/-GDScript-000000?style=flat&logo=GDScript)
 ![Godot](https://img.shields.io/badge/-Godot-000000?style=flat&logo=Godot-Engine)
@@ -70,7 +70,7 @@ https://github.com/danvargg/asteroid_shooter)
 
 ---
 
-**Tower Defense (WIP):** A tower defense game built with `Godot`. [Project](https://github.com/danvargg/tower_defense)
+**Tower Defense (WIP):** A tower defense game built with `PyGame`. [Project](https://github.com/danvargg/tower_defense)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![PyGame](https://img.shields.io/badge/-PyGame-000000?style=flat&logo=PyGame)
