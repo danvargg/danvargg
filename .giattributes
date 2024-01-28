@@ -1,0 +1,2 @@
+# Exclude jupyter notebooks from code analytics
+*.ipynb -linguist-detectable
