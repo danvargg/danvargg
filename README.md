@@ -4,9 +4,9 @@ I'm Daniel Vargas.
 
 - 🔭 I’m currently looking for new opportunities
 - 🤝 I’m available for freelancing.
-- 🌱 I’m currently learning C# and Unity
+- 🌱 I’m currently learning game development in Godot 4
 - 💬 Ask me about Machine Learning Engineering, MLOps, Computer Vision and Natural Language Processing (NLP)
-- 📫 Feel free to reach out **danvargg@gmail.com** or [Linkedin: Daniel Vargas](https://www.linkedin.com/in/danvargg/)
+- 📫 Feel free to reach out **<danvargg@gmail.com>** or [Linkedin: Daniel Vargas](https://www.linkedin.com/in/danvargg/)
 - 📝 Check out my projects:
   - [Data Science](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md)
   - Continuous Improvement (TBD)
@@ -52,7 +52,7 @@ https://huggingface.co/models?filter=keytotext)
 
 ### My experience
 
-You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf). 
+You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf).
 
 You can find all my certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
 
