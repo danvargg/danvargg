@@ -1,12 +1,4 @@
-## Data Science Projects
-
-- [Deep Learning](#deep-learning)
-- [Consulting](#consulting)
-- [Open Source Contributions](#open-source-contributions)
-- [Machine Learning](#machine-learning)
-- [Data Visualization](#data-visualization)
-
----
+## Machine Learning and AI Projects
 
 ## <p align="center">Deep Learning</p>
 

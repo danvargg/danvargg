@@ -7,10 +7,7 @@ I'm Daniel Vargas.
 - 🌱 I’m currently learning game development in Godot 4
 - 💬 Ask me about Machine Learning Engineering, MLOps, Computer Vision and Natural Language Processing (NLP)
 - 📫 Feel free to reach out **<danvargg@gmail.com>** or [Linkedin: Daniel Vargas](https://www.linkedin.com/in/danvargg/)
-- 📝 Check out my projects:
-  - [Data Science](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md)
-  - Continuous Improvement (TBD)
-  - [Video Games Design and Development](https://github.com/danvargg/danvargg/blob/main/docs/projects/video_games/README.md)
+- 📝 Check out my projects: [Machine Larning and AI](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md)
 
 ### My Tech Stack
 
