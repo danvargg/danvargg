@@ -4,7 +4,7 @@ I'm Daniel Vargas.
 
 - 🔭 I’m currently looking for new opportunities
 - 🤝 I’m available for freelancing.
-- 🌱 I’m currently learning game development in Godot 4
+- 🌱 I’m currently learning generative AI and AI Agents
 - 💬 Ask me about Machine Learning Engineering, MLOps, Computer Vision and Natural Language Processing (NLP)
 - 📫 Feel free to reach out **<danvargg@gmail.com>** or [Linkedin: Daniel Vargas](https://www.linkedin.com/in/danvargg/)
 - 📝 Check out my projects: [Machine Larning and AI](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md)
