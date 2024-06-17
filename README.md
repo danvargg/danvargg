@@ -49,7 +49,7 @@ https://huggingface.co/models?filter=keytotext)
 
 ### My experience
 
-You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/DV_resume.pdf).
+You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/dv_cv_2024.docx).
 
 You can find all my certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
 
