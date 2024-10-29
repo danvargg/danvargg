@@ -5,12 +5,12 @@
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
 ![Keras](https://img.shields.io/badge/-Keras-000000?style=flat&logo=Keras)
 ![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat&logo=Tensorflow)
-![scd](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)
 
 > This a generalized version of the project. The specific code, architecture, and data are property of the client and 
 cannot be fully shared.
 
-A deep learning human activity recognition system for [FightCamp](https://joinfightcamp.com/) to track and classify user's 
+A deep learning system for human activity recognition delivered to [FightCamp](https://joinfightcamp.com/) to track and classify user's 
 movement (punches and kicks) during a workout session, in real time, through IMU sensors.
 
 ### Business Problem
