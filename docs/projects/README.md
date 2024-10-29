@@ -12,7 +12,7 @@ a fitness application. [Code](https://github.com/danvargg/danvargg/blob/main/doc
 ![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat&logo=Tensorflow)
 ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)
 
-<img width=30% height=30%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/etna/images/etna.png">
+<img width=30% height=30%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/fc/images/012_boxing_sensor_tracking.jpg">
 
 ---
 
