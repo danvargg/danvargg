@@ -2,15 +2,15 @@
 
 ## <p align="center">Deep Learning</p>
 
-**Deep Learning System for Human Activity Recognition:** A human activity tracking system powered with deep learning for 
-a fitness application. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/fc/README.md)
+**Deep Learning System for Human Activity Recognition:** A `Human Activity Tracking` system powered with deep learning for 
+a fitness application using IMU sensor data. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/fc/README.md)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![Numpy](https://img.shields.io/badge/-Numpy-000000?style=flat&logo=Numpy)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
 ![Keras](https://img.shields.io/badge/-Keras-000000?style=flat&logo=Keras)
 ![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat&logo=Tensorflow)
-![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)
+![Android](https://img.shields.io/badge/Android-000000?logo=android&logoColor=white)
 
 <img width=30% height=30%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/fc/images/012_boxing_sensor_tracking.jpg">
 
