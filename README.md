@@ -3,11 +3,11 @@
 I'm Daniel Vargas.
 
 - 🔭 I’m currently looking for new opportunities
-- 🤝 I’m available for freelancing.
-- 🌱 I’m currently learning generative AI and AI Agents
+- 🤝 I’m available for freelancing
+- 🌱 I’m currently learning Generative AI and Agentic AI 
 - 💬 Ask me about Machine Learning Engineering, MLOps, Computer Vision and Natural Language Processing (NLP)
-- 📫 Feel free to reach out **<danvargg@gmail.com>** or [Linkedin: Daniel Vargas](https://www.linkedin.com/in/danvargg/)
-- 📝 Check out my projects: [Machine Larning and AI](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md)
+- 📫 Feel free to reach out **<daniel@lateralai.ca>** or [Linkedin: Daniel Vargas](https://www.linkedin.com/in/danvargg/)
+- 📝 Check out my projects: [Machine Larning and AI](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md) | [Game Development](https://github.com/danvargg/danvargg/blob/main/docs/projects/video_games/README.md)
 
 ### My Tech Stack
 
@@ -52,23 +52,3 @@ https://huggingface.co/models?filter=keytotext)
 You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/Daniel_Vargas_CV_2024.docx).
 
 You can find all my certificates [here](https://github.com/danvargg/danvargg/tree/main/docs/certificates).
-
-#### Just Some Stats
-
-[![](https://komarev.com/ghpvc/?username=danvargg&color=yellow)](
-https://github.com/antonkomarev/github-profile-views-counter
-)
-
-<div style="text-align:center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danvargg&layout=compact&theme=dark" alt="Top Langs" width="389px" height="168" />
-  </a>
-</div>
-
----
-
-<div style="text-align:center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=danvargg&layout=compact&theme=dark&show_icons=true" alt="Stats" width="389px" height="168" />
-  </a>
-</div>
