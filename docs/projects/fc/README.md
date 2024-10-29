@@ -29,7 +29,7 @@ A VAE (Variational Autoencoder) was trained to generate synthetic data to increa
 
 #### 2. Model Architecture
 
-[//]: # (<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/images/data_flow.png">)
+<img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/fc/images/fightcamp-github.jpg">
 
 The model architecture was a `Convolutional Neural Network (CNN)` where the model input was the raw imu data 
 (accelerometer and gyroscope) and the output was the user's classified movement.
