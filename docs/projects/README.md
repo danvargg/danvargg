@@ -1,7 +1,5 @@
 ## Machine Learning and AI Projects
 
-## <p align="center">Deep Learning</p>
-
 **Deep Learning System for Human Activity Recognition:** A `Human Activity Tracking` system powered with deep learning for 
 a fitness application using IMU sensor data. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/fc/README.md)
 
@@ -50,8 +48,6 @@ https://github.com/danvargg/danvargg/blob/main/docs/projects/pigio/README.md)
 
 ---
 
-## <p align="center">Consulting</p>
-
 **Data Science Training Program:** A comprehensive data science training program for a team of data analysts for
 [Master Data Analysis](https://www.linkedin.com/company/master-data-analysis/). [Code](
 https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/README.md)
@@ -69,8 +65,6 @@ https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/README.md)
 
 <img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/mda.png">
 
-## <p align="center">Open Source Contributions</p>
-
 ---
 
 **Scikit-Learn Ridge Regression for CoreML:** An `Open Source` contribution to support Ridge Regression deployment on
@@ -84,8 +78,6 @@ https://github.com/apple/coremltools/pull/1707)
 <img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/coremltools/coreml.png">
 
 ---
-
-## <p align="center">Machine Learning</p>
 
 **Sentence similarity model:** A `Narual Language Processing (NLP) Text Similarity` model to support the requirements analysis phase. [Code](
 https://github.com/danvargg/requirements-similarity)
