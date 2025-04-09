@@ -1,4 +1,35 @@
-## Machine Learning and AI Projects
+# Machine Learning and AI Projects
+
+**ISO Compliance Assistant:** TBD. [Code](TBD)
+
+![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
+![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
+![OpenAI](https://img.shields.io/badge/-OpenAI-000000?style=flat&logo=OpenAI)
+
+<img width=30% height=30%  src="TBD">
+
+---
+
+**Procurement Code Matching:** TBD. [Code](TBD)
+
+![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
+![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
+![OpenAI](https://img.shields.io/badge/-OpenAI-000000?style=flat&logo=OpenAI)
+![Azure](https://img.shields.io/badge/-Azure-000000?style=flat&logo=microsoft-azure)
+
+<img width=30% height=30%  src="TBD">
+
+---
+
+**Invoice Processing:** TBD. [Code](TBD)
+
+![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
+![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
+![OpenAI](https://img.shields.io/badge/-OpenAI-000000?style=flat&logo=OpenAI)
+
+<img width=30% height=30%  src="TBD">
+
+---
 
 **Deep Learning System for Human Activity Recognition:** A `Human Activity Tracking` system powered with deep learning for 
 a fitness application using IMU sensor data. [Code](https://github.com/danvargg/danvargg/blob/main/docs/projects/fc/README.md)
