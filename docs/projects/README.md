@@ -29,7 +29,7 @@
 ![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
 ![OpenAI](https://img.shields.io/badge/-OpenAI-000000?style=flat&logo=OpenAI)
 
-<img width=30% height=30%  src="https://github.com/danvargg/invoice-processor/blob/main/img/ui.png">
+<img width=50% height=50%  src="https://github.com/danvargg/invoice-processor/blob/main/img/ui.png">
 
 ---
 
