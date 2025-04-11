@@ -1,27 +1,29 @@
 # Machine Learning and AI Projects
 
-**ISO Compliance Assistant:** TBD. [Code](TBD)
+**Automatic ISO Compliance Audit:** TBD. [Code](TBD)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
 ![OpenAI](https://img.shields.io/badge/-OpenAI-000000?style=flat&logo=OpenAI)
+![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
 
 <img width=30% height=30%  src="TBD">
 
 ---
 
-**Procurement Code Matching:** TBD. [Code](TBD)
+**Automatic Procurement Code Matching:** TBD. [Code](TBD)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
 ![OpenAI](https://img.shields.io/badge/-OpenAI-000000?style=flat&logo=OpenAI)
 ![Azure](https://img.shields.io/badge/-Azure-000000?style=flat&logo=microsoft-azure)
+![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
 
 <img width=30% height=30%  src="TBD">
 
 ---
 
-**Invoice Processing:** TBD. [Code](TBD)
+**Automatic Invoice Processing:** TBD. [Code](TBD)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
@@ -40,6 +42,7 @@ a fitness application using IMU sensor data. [Code](https://github.com/danvargg/
 ![Keras](https://img.shields.io/badge/-Keras-000000?style=flat&logo=Keras)
 ![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat&logo=Tensorflow)
 ![Android](https://img.shields.io/badge/Android-000000?logo=android&logoColor=white)
+![Swift](https://img.shields.io/badge/-Swift-000000?style=flat&logo=Swift)
 
 <img width=30% height=30%  src="https://github.com/danvargg/danvargg/blob/main/docs/projects/fc/images/012_boxing_sensor_tracking.jpg">
 
@@ -85,14 +88,11 @@ https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/README.md)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![Azure](https://img.shields.io/badge/-Azure-000000?style=flat&logo=microsoft-azure)
-![Jupyter](https://img.shields.io/badge/-Jupyter-000000?style=flat&logo=Jupyter)
 ![Numpy](https://img.shields.io/badge/-Numpy-000000?style=flat&logo=Numpy)
 ![Matplotlib](https://img.shields.io/badge/-Matplotlib-000000?style=flat&logo=Matplotlib)
 ![Scipy](https://img.shields.io/badge/-Scipy-000000?style=flat&logo=Scipy)
 ![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit_Learn-000000?style=flat&logo=Scikit-Learn)
-![Anaconda](https://img.shields.io/badge/-Anaconda-000000?style=flat&logo=Anaconda)
-![VSCode](https://img.shields.io/badge/-VSCode-000000?style=flat&logo=visual-studio-code&logoColor=007ACC)
 
 <img src="https://github.com/danvargg/danvargg/blob/main/docs/projects/mda/mda.png">
 
@@ -124,7 +124,7 @@ https://github.com/danvargg/requirements-similarity)
 https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/README.md)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
-![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazonaws)
+![AWS](https://img.shields.io/badge/-AWS-000000?style=flat&logo=amazon-aws)
 ![Scikit-Learn](https://img.shields.io/badge/-Scikit.Learn-000000?style=flat&logo=Scikit-Learn)
 
 <img width=50% height=50% src="https://github.com/danvargg/danvargg/blob/main/docs/projects/auraML/auraml.png">
