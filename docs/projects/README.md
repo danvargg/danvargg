@@ -23,11 +23,12 @@
 
 ---
 
-**Automatic Invoice Processing:** An invoice processing system designed to upload, process, and extract structured data from PDF invoices.. [Code](https://github.com/danvargg/invoice-processor/tree/main)
+**Automatic Invoice Processing:** An invoice processing system designed to upload, process, and extract structured data from PDF invoices using LLMs. [Code](https://github.com/danvargg/invoice-processor/tree/main)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
 ![OpenAI](https://img.shields.io/badge/-OpenAI-000000?style=flat&logo=OpenAI)
+![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
 
 <img width=50% height=50%  src="https://github.com/danvargg/invoice-processor/blob/main/img/ui.png">
 
