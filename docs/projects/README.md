@@ -1,27 +1,25 @@
 # Machine Learning and AI Projects
 
-**Automatic ISO Compliance Analysis:** TBD. [Code](https://github.com/danvargg/audit-agent)
+**Automatic ISO Compliance Analysis:** A solution designed to automate the process of analyzing company documentation for compliance with ISO 13485:2016 standards.. [Code](https://github.com/danvargg/audit-agent)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
 ![OpenAI](https://img.shields.io/badge/-OpenAI-000000?style=flat&logo=OpenAI)
 ![Streamlit](https://img.shields.io/badge/-Streamlit-000000?style=flat&logo=Streamlit)
-
-A solution designed to automate the process of analyzing company documentation for compliance with ISO 13485:2016 standards. 
+![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
 
 <img width=30% height=30%  src="https://github.com/danvargg/audit-agent/blob/main/img/ui.png">
 
 ---
 
-**Automatic Procurement Codes Matching:** TBD. [Code](TBD)
+**Automatic Procurement Codes Matching:** API for Car Part Code Matching that processes Excel and PDF files to extract 
+and match car part codes. It integrates with OpenAI's GPT-based model for intelligent code extraction and matching. `Confidential`
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
 ![OpenAI](https://img.shields.io/badge/-OpenAI-000000?style=flat&logo=OpenAI)
 ![Azure](https://img.shields.io/badge/-Azure-000000?style=flat&logo=microsoft-azure)
 ![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
-
-<img width=30% height=30%  src="TBD">
 
 ---
 
@@ -31,6 +29,7 @@ A solution designed to automate the process of analyzing company documentation f
 ![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
 ![OpenAI](https://img.shields.io/badge/-OpenAI-000000?style=flat&logo=OpenAI)
 ![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
+![Streamlit](https://img.shields.io/badge/-Streamlit-000000?style=flat&logo=Streamlit)
 
 <img width=50% height=50%  src="https://github.com/danvargg/invoice-processor/blob/main/img/ui.png">
 
