@@ -11,16 +11,9 @@ A solution designed to automate the process of analyzing company documentation f
 
 <img width=30% height=30%  src="https://github.com/danvargg/audit-agent/blob/main/img/ui.png">
 
-![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
-![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
-![OpenAI](https://img.shields.io/badge/-OpenAI-000000?style=flat&logo=OpenAI)
-![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat&logo=Pandas)
-
-<img width=30% height=30%  src="TBD">
-
 ---
 
-**Automatic Procurement Code Matching:** TBD. [Code](TBD)
+**Automatic Procurement Codes Matching:** TBD. [Code](TBD)
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
