@@ -9,7 +9,7 @@
 
 A solution designed to automate the process of analyzing company documentation for compliance with ISO 13485:2016 standards. 
 
-<img width=30% height=30%  src="https://github.com/danvargg/audit-agent/blob/main/img/Screenshot%202025-04-15%20120054.png">
+<img width=30% height=30%  src="https://github.com/danvargg/audit-agent/blob/main/img/ui.png">
 
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=Python)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat&logo=FastAPI)
