@@ -475,12 +475,25 @@
             font-weight: 500;
             color: var(--text);
             transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .tech-tag:hover {
             background: rgba(99, 102, 241, 0.2);
             border-color: rgba(99, 102, 241, 0.4);
             transform: translateY(-2px);
+        }
+
+        .tech-icon-img {
+            width: 32px;
+            height: 32px;
+            object-fit: contain;
+        }
+
+        .tech-icon-filter {
+            filter: brightness(0) invert(1);
         }
 
         /* Projects Section */
@@ -717,49 +730,49 @@
                     <div class="tech-category">
                         <h4>Core Languages & Frameworks</h4>
                         <div class="tech-tags">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">C/C++</span>
-                            <span class="tech-tag">R</span>
-                            <span class="tech-tag">SQL</span>
-                            <span class="tech-tag">Flask</span>
-                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/python.svg" alt="Python" class="tech-icon-img tech-icon-filter" title="Python"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/cplusplus.svg" alt="C++" class="tech-icon-img tech-icon-filter" title="C++"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/r.svg" alt="R" class="tech-icon-img tech-icon-filter" title="R"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/mysql.svg" alt="SQL" class="tech-icon-img tech-icon-filter" title="SQL"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/flask.svg" alt="Flask" class="tech-icon-img tech-icon-filter" title="Flask"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/fastapi.svg" alt="FastAPI" class="tech-icon-img tech-icon-filter" title="FastAPI"></span>
                         </div>
                     </div>
                     
                     <div class="tech-category">
                         <h4>AI/ML & Deep Learning</h4>
                         <div class="tech-tags">
-                            <span class="tech-tag">OpenAI</span>
-                            <span class="tech-tag">Scikit-Learn</span>
-                            <span class="tech-tag">XGBoost</span>
-                            <span class="tech-tag">Keras</span>
-                            <span class="tech-tag">TensorFlow</span>
-                            <span class="tech-tag">PyTorch</span>
-                            <span class="tech-tag">Hugging Face</span>
-                            <span class="tech-tag">MLFlow</span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/openai.svg" alt="OpenAI" class="tech-icon-img tech-icon-filter" title="OpenAI"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/scikitlearn.svg" alt="Scikit-Learn" class="tech-icon-img tech-icon-filter" title="Scikit-Learn"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/xgboost.svg" alt="XGBoost" class="tech-icon-img tech-icon-filter" title="XGBoost"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/keras.svg" alt="Keras" class="tech-icon-img tech-icon-filter" title="Keras"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/tensorflow.svg" alt="TensorFlow" class="tech-icon-img tech-icon-filter" title="TensorFlow"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/pytorch.svg" alt="PyTorch" class="tech-icon-img tech-icon-filter" title="PyTorch"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/huggingface.svg" alt="Hugging Face" class="tech-icon-img tech-icon-filter" title="Hugging Face"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/mlflow.svg" alt="MLFlow" class="tech-icon-img tech-icon-filter" title="MLFlow"></span>
                         </div>
                     </div>
                     
                     <div class="tech-category">
                         <h4>Data & Scientific Computing</h4>
                         <div class="tech-tags">
-                            <span class="tech-tag">NumPy</span>
-                            <span class="tech-tag">Pandas</span>
-                            <span class="tech-tag">Matplotlib</span>
-                            <span class="tech-tag">Scipy</span>
-                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/numpy.svg" alt="NumPy" class="tech-icon-img tech-icon-filter" title="NumPy"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/pandas.svg" alt="Pandas" class="tech-icon-img tech-icon-filter" title="Pandas"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/plotly.svg" alt="Matplotlib" class="tech-icon-img tech-icon-filter" title="Matplotlib"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/scipy.svg" alt="Scipy" class="tech-icon-img tech-icon-filter" title="Scipy"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/opencv.svg" alt="OpenCV" class="tech-icon-img tech-icon-filter" title="OpenCV"></span>
                         </div>
                     </div>
                     
                     <div class="tech-category">
                         <h4>DevOps & Cloud</h4>
                         <div class="tech-tags">
-                            <span class="tech-tag">Git</span>
-                            <span class="tech-tag">GitHub</span>
-                            <span class="tech-tag">GitHub Actions</span>
-                            <span class="tech-tag">Docker</span>
-                            <span class="tech-tag">AWS</span>
-                            <span class="tech-tag">Azure</span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/git.svg" alt="Git" class="tech-icon-img tech-icon-filter" title="Git"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/github.svg" alt="GitHub" class="tech-icon-img tech-icon-filter" title="GitHub"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/githubactions.svg" alt="GitHub Actions" class="tech-icon-img tech-icon-filter" title="GitHub Actions"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/docker.svg" alt="Docker" class="tech-icon-img tech-icon-filter" title="Docker"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/amazonwebservices.svg" alt="AWS" class="tech-icon-img tech-icon-filter" title="AWS"></span>
+                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/microsoftazure.svg" alt="Azure" class="tech-icon-img tech-icon-filter" title="Azure"></span>
                         </div>
                     </div>
                 </div>
@@ -912,9 +925,9 @@
                             </div>
                         </div>
                         <div class="project-tech">
-                            <span>OpenAI GPT</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/openai.svg" alt="OpenAI" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">OpenAI GPT</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/python.svg" alt="Python" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Python</span>
                             <span>PyPDF2</span>
-                            <span>Python</span>
                         </div>
                     </div>
 
@@ -943,7 +956,7 @@
                             </div>
                         </div>
                         <div class="project-tech">
-                            <span>FastAPI</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/fastapi.svg" alt="FastAPI" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">FastAPI</span>
                             <span>LLMs</span>
                             <span>Function Calling</span>
                         </div>
@@ -955,7 +968,6 @@
                             <div>
                                 <span class="project-tag">Edge AI</span>
                                 <span class="project-tag">Real-Time ML</span>
-                                <span class="project-tag-client">FightCamp</span>
                                 <h3>Real-Time Activity Recognition System</h3>
                                 <p class="project-industry">Fitness Technology</p>
                             </div>
@@ -975,11 +987,11 @@
                             </div>
                         </div>
                         <div class="project-tech">
-                            <span>TensorFlow</span>
-                            <span>TFLite</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/tensorflow.svg" alt="TensorFlow" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">TensorFlow</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/tensorflow.svg" alt="TFLite" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">TFLite</span>
                             <span>CNN</span>
                             <span>VAE</span>
-                            <span>AWS EC2</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/amazonwebservices.svg" alt="AWS" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">AWS EC2</span>
                         </div>
                     </div>
 
@@ -988,7 +1000,6 @@
                         <div class="project-header">
                             <div>
                                 <span class="project-tag">Open Source</span>
-                                <span class="project-tag-client">Apple</span>
                                 <h3>CoreML Tools Platform Enhancement</h3>
                                 <p class="project-industry">ML Infrastructure</p>
                             </div>
@@ -996,16 +1007,16 @@
                         <div class="project-content">
                             <div class="project-section">
                                 <h4>Contribution</h4>
-                                <p>Contributed to Apple's CoreML platform, improving model serialization and framework interoperability. Direct involvement in enhancing the tools used by thousands of ML engineers for iOS deployment.</p>
+                                <p>Contributed to the CoreML platform, improving model serialization and framework interoperability. Direct involvement in enhancing the tools used by thousands of ML engineers for iOS deployment.</p>
                             </div>
                             <div class="project-section">
                                 <h4>Impact</h4>
-                                <p>Strengthened the CoreML ecosystem, making it easier for developers to deploy ML models across Apple devices with improved reliability and compatibility.</p>
+                                <p>Strengthened the CoreML ecosystem, making it easier for developers to deploy ML models across devices with improved reliability and compatibility.</p>
                             </div>
                         </div>
                         <div class="project-tech">
                             <span>CoreML</span>
-                            <span>Python</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/python.svg" alt="Python" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Python</span>
                             <span>Model Serialization</span>
                         </div>
                         <a href="https://github.com/apple/coremltools/pull/1707" class="project-link" target="_blank">View Pull Request →</a>
@@ -1017,7 +1028,6 @@
                             <div>
                                 <span class="project-tag">Medical AI</span>
                                 <span class="project-tag">Computer Vision</span>
-                                <span class="project-tag-client">Innodem Neurosciences</span>
                                 <h3>Medical Eye-Gaze Communication System</h3>
                                 <p class="project-industry">Healthcare SaMD</p>
                             </div>
@@ -1037,9 +1047,9 @@
                             </div>
                         </div>
                         <div class="project-tech">
-                            <span>TensorFlow</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/tensorflow.svg" alt="TensorFlow" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">TensorFlow</span>
                             <span>CoreML</span>
-                            <span>Computer Vision</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/opencv.svg" alt="Computer Vision" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Computer Vision</span>
                             <span>iOS</span>
                         </div>
                     </div>
@@ -1072,7 +1082,7 @@
                             <span>NLP</span>
                             <span>TF-IDF</span>
                             <span>NLTK</span>
-                            <span>Python</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/python.svg" alt="Python" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Python</span>
                         </div>
                     </div>
 
@@ -1082,7 +1092,6 @@
                             <div>
                                 <span class="project-tag">Machine Learning</span>
                                 <span class="project-tag">Recommendation</span>
-                                <span class="project-tag-client">Aura Health</span>
                                 <h3>Personalized Wellness Recommendation Engine</h3>
                                 <p class="project-industry">Digital Health & Wellness</p>
                             </div>
@@ -1102,10 +1111,10 @@
                             </div>
                         </div>
                         <div class="project-tech">
-                            <span>Random Forest</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/scikitlearn.svg" alt="Scikit-Learn" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Random Forest</span>
                             <span>SVD</span>
-                            <span>AWS Lambda</span>
-                            <span>Scikit-Learn</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/amazonwebservices.svg" alt="AWS" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">AWS Lambda</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/scikitlearn.svg" alt="Scikit-Learn" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Scikit-Learn</span>
                         </div>
                     </div>
                 </div>
