@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Vargas | AI Solutions Architect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #6366f1;
+            --secondary: #8b5cf6;
+            --accent: #06b6d4;
+            --dark: #0f172a;
+            --darker: #020617;
+            --text: #e2e8f0;
+            --text-dim: #94a3b8;
+        }
+
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background: var(--darker);
+            color: var(--text);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Animated Background */
+        .bg-animated {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(6, 182, 212, 0.1) 0%, transparent 50%);
+        }
+
+        .grain {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            opacity: 0.03;
+            pointer-events: none;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 2rem 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            backdrop-filter: blur(12px);
+            background: rgba(2, 6, 23, 0.8);
+            border-bottom: 1px solid rgba(99, 102, 241, 0.1);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8rem 4rem;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 1000px;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 0.5rem 1.5rem;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #fff 0%, var(--text) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero h1 span {
+            display: block;
+            background: linear-gradient(135deg, var(--primary), var(--secondary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.125rem, 2vw, 1.5rem);
+            color: var(--text-dim);
+            margin-bottom: 3rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 1rem 2.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-size: 1rem;
+            cursor: pointer;
+            border: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(99, 102, 241, 0.4);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text);
+            border: 2px solid rgba(99, 102, 241, 0.3);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--primary);
+            background: rgba(99, 102, 241, 0.1);
+        }
+
+        /* Services Section */
+        .services {
+            padding: 8rem 4rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+
+        .section-label {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .section-description {
+            font-size: 1.25rem;
+            color: var(--text-dim);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(99, 102, 241, 0.1);
+            border-radius: 16px;
+            padding: 3rem 2rem;
+            transition: all 0.4s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, transparent 50%);
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(99, 102, 241, 0.3);
+            box-shadow: 0 20px 60px rgba(99, 102, 241, 0.2);
+        }
+
+        .service-card:hover::before {
+            opacity: 1;
+        }
+
+        .service-icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(139, 92, 246, 0.2));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        .service-icon svg {
+            width: 32px;
+            height: 32px;
+            stroke: var(--primary);
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .service-card p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            position: relative;
+            z-index: 1;
+        }
+
+        .service-features {
+            list-style: none;
+            margin-top: 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .service-features li {
+            padding: 0.5rem 0;
+            color: var(--text-dim);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .service-features li::before {
+            content: '→';
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        /* Expertise Section */
+        .expertise {
+            padding: 8rem 4rem;
+            background: rgba(15, 23, 42, 0.4);
+        }
+
+        .expertise-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-top: 4rem;
+        }
+
+        .expertise-item {
+            text-align: center;
+        }
+
+        .expertise-number {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+
+        .expertise-label {
+            color: var(--text-dim);
+            font-size: 1rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 8rem 4rem;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 24px;
+            padding: 4rem 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-box::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(99, 102, 241, 0.1) 0%, transparent 70%);
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+        }
+
+        .cta-box h2 {
+            position: relative;
+            z-index: 1;
+            margin-bottom: 1rem;
+        }
+
+        .cta-box p {
+            position: relative;
+            z-index: 1;
+            color: var(--text-dim);
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+
+        .cta-box .cta-buttons {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Footer */
+        footer {
+            padding: 4rem;
+            text-align: center;
+            border-top: 1px solid rgba(99, 102, 241, 0.1);
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
+        .social-links a {
+            color: var(--text-dim);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        .social-links a:hover {
+            color: var(--primary);
+        }
+
+        .copyright {
+            color: var(--text-dim);
+            font-size: 0.875rem;
+        }
+
+        /* Tech Stack Section */
+        .tech-stack {
+            padding: 6rem 4rem;
+            background: rgba(15, 23, 42, 0.3);
+        }
+
+        .tech-stack-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .tech-categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .tech-category h4 {
+            font-size: 1.125rem;
+            color: var(--text);
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .tech-tag {
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--text);
+            transition: all 0.3s;
+        }
+
+        .tech-tag:hover {
+            background: rgba(99, 102, 241, 0.2);
+            border-color: rgba(99, 102, 241, 0.4);
+            transform: translateY(-2px);
+        }
+
+        /* Projects Section */
+        .projects {
+            padding: 8rem 4rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .projects-content {
+            width: 100%;
+        }
+
+        .projects-list {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            margin-top: 4rem;
+        }
+
+        .project-card {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            border-radius: 16px;
+            padding: 2.5rem;
+            transition: all 0.3s;
+        }
+
+        .project-card:hover {
+            border-color: rgba(99, 102, 241, 0.4);
+            box-shadow: 0 12px 40px rgba(99, 102, 241, 0.15);
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+        }
+
+        .project-tag {
+            display: inline-block;
+            padding: 0.375rem 0.875rem;
+            background: rgba(99, 102, 241, 0.15);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-right: 0.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .project-tag-client {
+            display: inline-block;
+            padding: 0.375rem 0.875rem;
+            background: rgba(6, 182, 212, 0.15);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-right: 0.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .project-header h3 {
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .project-industry {
+            font-size: 0.875rem;
+            color: var(--text-dim);
+            font-weight: 500;
+        }
+
+        .project-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .project-section h4 {
+            font-size: 0.875rem;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        .project-section p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            font-size: 0.938rem;
+        }
+
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(99, 102, 241, 0.1);
+        }
+
+        .project-tech span {
+            background: rgba(6, 182, 212, 0.1);
+            border: 1px solid rgba(6, 182, 212, 0.2);
+            padding: 0.375rem 0.875rem;
+            border-radius: 6px;
+            font-size: 0.813rem;
+            color: var(--accent);
+            font-weight: 500;
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 1.5rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.938rem;
+            transition: all 0.3s;
+        }
+
+        .project-link:hover {
+            color: var(--accent);
+            transform: translateX(4px);
+        }
+
+        /* Mobile Menu */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            cursor: pointer;
+        }
+
+        .menu-toggle span {
+            width: 28px;
+            height: 2px;
+            background: var(--text);
+            transition: all 0.3s;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav {
+                padding: 1.5rem 2rem;
+            }
+
+            .hero {
+                padding: 6rem 2rem;
+            }
+
+            .tech-stack, .services, .projects, .expertise, .cta-section {
+                padding: 4rem 2rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .tech-categories {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .project-content {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .expertise-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+            }
+
+            .cta-box {
+                padding: 3rem 2rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-animated"></div>
+    <div class="grain"></div>
+
+    <div class="content">
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">DV</div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-badge">AI Solutions Architect</div>
+                <h1>
+                    Daniel Vargas
+                    <span>Transforming Business with AI</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Building enterprise-grade AI systems that drive measurable results. Specializing in agentic AI, intelligent automation, and production-scale MLOps.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Start a Project</a>
+                    <a href="#services" class="btn btn-secondary">Explore Services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section class="tech-stack">
+            <div class="tech-stack-content">
+                <div class="section-header">
+                    <div class="section-label">Technology Arsenal</div>
+                    <h2>Cutting-Edge Tech Stack</h2>
+                </div>
+                
+                <div class="tech-categories">
+                    <div class="tech-category">
+                        <h4>Core Languages & Frameworks</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">C/C++</span>
+                            <span class="tech-tag">R</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">FastAPI</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <h4>AI/ML & Deep Learning</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">OpenAI</span>
+                            <span class="tech-tag">Scikit-Learn</span>
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Hugging Face</span>
+                            <span class="tech-tag">MLFlow</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <h4>Data & Scientific Computing</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Scipy</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <h4>DevOps & Cloud</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Git</span>
+                            <span class="tech-tag">GitHub</span>
+                            <span class="tech-tag">GitHub Actions</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Azure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="section-header">
+                <div class="section-label">What I Do</div>
+                <h2>AI Solutions Built for Impact</h2>
+                <p class="section-description">
+                    End-to-end AI consulting from strategy to deployment, designed to solve real business challenges.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3>Agentic AI Systems</h3>
+                    <p>Design and deploy autonomous AI agents that handle complex, multi-step workflows with minimal human intervention.</p>
+                    <ul class="service-features">
+                        <li>Multi-agent orchestration</li>
+                        <li>RAG pipeline development</li>
+                        <li>LLM fine-tuning & optimization</li>
+                        <li>Autonomous workflow automation</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Intelligent Document Processing</h3>
+                    <p>Transform unstructured data into actionable insights with advanced OCR, NLP, and computer vision models.</p>
+                    <ul class="service-features">
+                        <li>Document AI implementation</li>
+                        <li>OCR & data extraction</li>
+                        <li>Vision-based processing</li>
+                        <li>Structured data output</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+                        </svg>
+                    </div>
+                    <h3>Cloud MLOps & Infrastructure</h3>
+                    <p>Build scalable, production-ready ML infrastructure on GCP, AWS, or Azure with comprehensive monitoring.</p>
+                    <ul class="service-features">
+                        <li>Vertex AI & cloud deployment</li>
+                        <li>Kubernetes orchestration</li>
+                        <li>CI/CD pipeline setup</li>
+                        <li>Model monitoring & observability</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3>AI Strategy & Consulting</h3>
+                    <p>Develop comprehensive AI roadmaps aligned with your business objectives and technical capabilities.</p>
+                    <ul class="service-features">
+                        <li>AI feasibility assessment</li>
+                        <li>Technology stack selection</li>
+                        <li>ROI modeling & planning</li>
+                        <li>Implementation roadmaps</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section class="expertise" id="expertise">
+            <div class="expertise-content">
+                <div class="section-header">
+                    <div class="section-label">By The Numbers</div>
+                    <h2>Proven Track Record</h2>
+                    <p class="section-description">
+                        Years of experience building AI systems that deliver measurable business value.
+                    </p>
+                </div>
+
+                <div class="expertise-grid">
+                    <div class="expertise-item">
+                        <div class="expertise-number">10+</div>
+                        <div class="expertise-label">Production Systems Deployed</div>
+                    </div>
+                    <div class="expertise-item">
+                        <div class="expertise-number">65%</div>
+                        <div class="expertise-label">Average Efficiency Gain</div>
+                    </div>
+                    <div class="expertise-item">
+                        <div class="expertise-number">95%</div>
+                        <div class="expertise-label">Model Accuracy Achieved</div>
+                    </div>
+                    <div class="expertise-item">
+                        <div class="expertise-number">100%</div>
+                        <div class="expertise-label">Cloud-Native Solutions</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="projects-content">
+                <div class="section-header">
+                    <div class="section-label">Case Studies</div>
+                    <h2>Proven Solutions</h2>
+                    <p class="section-description">
+                        Real-world AI implementations delivering measurable business impact across industries.
+                    </p>
+                </div>
+
+                <div class="projects-list">
+                    <!-- Project 1: ISO Compliance -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-tag">Generative AI</span>
+                                <span class="project-tag">Automation</span>
+                                <h3>AI-Powered ISO Compliance Auditor</h3>
+                                <p class="project-industry">Medical Device Industry</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-section">
+                                <h4>Challenge</h4>
+                                <p>Manual ISO 13485:2016 compliance auditing was time-consuming, expensive, and prone to human error, creating bottlenecks in regulatory approval processes.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Solution</h4>
+                                <p>Built an automated compliance analysis system using OpenAI's GPT models to generate structured audit reports from company documentation. The system extracts text from PDFs and produces professional findings with standard references and actionable recommendations.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Impact</h4>
+                                <p>Dramatically reduced audit time and costs while ensuring consistent adherence to regulatory standards. Enabled faster identification and resolution of non-conformities.</p>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>OpenAI GPT</span>
+                            <span>PyPDF2</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Invoice Processor -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-tag">Document AI</span>
+                                <span class="project-tag">API Development</span>
+                                <h3>Intelligent Invoice Processing System</h3>
+                                <p class="project-industry">Financial Operations</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-section">
+                                <h4>Challenge</h4>
+                                <p>Manual invoice data extraction was creating operational bottlenecks, limiting scalability and introducing human error in financial workflows.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Solution</h4>
+                                <p>Developed a FastAPI backend with LLM-powered structured data extraction using function calling. System handles batch uploads with secure API key authentication, processing multiple invoices simultaneously with high accuracy.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Impact</h4>
+                                <p>Eliminated manual data entry, improved extraction accuracy, and enabled parallel processing of invoice batches—drastically reducing processing time and operational costs.</p>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>FastAPI</span>
+                            <span>LLMs</span>
+                            <span>Function Calling</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Activity Recognition -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-tag">Edge AI</span>
+                                <span class="project-tag">Real-Time ML</span>
+                                <span class="project-tag-client">FightCamp</span>
+                                <h3>Real-Time Activity Recognition System</h3>
+                                <p class="project-industry">Fitness Technology</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-section">
+                                <h4>Challenge</h4>
+                                <p>Deliver accurate, real-time punch and kick tracking on resource-constrained Android devices using only IMU sensor data, without compromising user experience.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Solution</h4>
+                                <p>Built a CNN-based deep learning system trained on AWS with Tesla V100 GPUs. Implemented VAE for synthetic data generation and deployed via TensorFlow Lite with 16-bit quantization for optimal mobile performance.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Impact</h4>
+                                <p>Achieved high-accuracy movement classification with minimal latency on edge devices, enabling personalized workout tracking and improving user engagement metrics.</p>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>TensorFlow</span>
+                            <span>TFLite</span>
+                            <span>CNN</span>
+                            <span>VAE</span>
+                            <span>AWS EC2</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: CoreML Contribution -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-tag">Open Source</span>
+                                <span class="project-tag-client">Apple</span>
+                                <h3>CoreML Tools Platform Enhancement</h3>
+                                <p class="project-industry">ML Infrastructure</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-section">
+                                <h4>Contribution</h4>
+                                <p>Contributed to Apple's CoreML platform, improving model serialization and framework interoperability. Direct involvement in enhancing the tools used by thousands of ML engineers for iOS deployment.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Impact</h4>
+                                <p>Strengthened the CoreML ecosystem, making it easier for developers to deploy ML models across Apple devices with improved reliability and compatibility.</p>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>CoreML</span>
+                            <span>Python</span>
+                            <span>Model Serialization</span>
+                        </div>
+                        <a href="https://github.com/apple/coremltools/pull/1707" class="project-link" target="_blank">View Pull Request →</a>
+                    </div>
+
+                    <!-- Project 5: Eye Gaze Tracking -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-tag">Medical AI</span>
+                                <span class="project-tag">Computer Vision</span>
+                                <span class="project-tag-client">Innodem Neurosciences</span>
+                                <h3>Medical Eye-Gaze Communication System</h3>
+                                <p class="project-industry">Healthcare SaMD</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-section">
+                                <h4>Challenge</h4>
+                                <p>Enable ICU patients who are conscious but intubated or paralyzed to communicate using only eye movements, requiring robust performance across varying lighting and patient appearances.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Solution</h4>
+                                <p>Developed a CNN-based eye-tracking system for iPad deployment via CoreML. Implemented personalized calibration with server-side fine-tuning and 16-bit quantization for efficient on-device inference.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Impact</h4>
+                                <p>Delivered gaze-tracking accuracy comparable to infrared solutions at lower cost, powering Pigio™ Gaze-to-Speech applications that restore communication for critically ill patients.</p>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>TensorFlow</span>
+                            <span>CoreML</span>
+                            <span>Computer Vision</span>
+                            <span>iOS</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: Requirements Similarity -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-tag">NLP</span>
+                                <span class="project-tag">Text Analysis</span>
+                                <h3>AI Requirements Deduplication System</h3>
+                                <p class="project-industry">Railway Engineering</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-section">
+                                <h4>Challenge</h4>
+                                <p>Analyze 118+ L1 requirements to identify redundancies and ensure proper linkage to business goals, preventing duplication of engineering work.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Solution</h4>
+                                <p>Built a text similarity model using TF-IDF vectorization and cosine similarity analysis to automatically identify similar requirements and flag potential duplicates across the requirements traceability matrix.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Impact</h4>
+                                <p>Reduced requirements redundancy by 8%, saving significant engineering time and ensuring cleaner project scope definition.</p>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>NLP</span>
+                            <span>TF-IDF</span>
+                            <span>NLTK</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 7: Recommendation System -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-tag">Machine Learning</span>
+                                <span class="project-tag">Recommendation</span>
+                                <span class="project-tag-client">Aura Health</span>
+                                <h3>Personalized Wellness Recommendation Engine</h3>
+                                <p class="project-industry">Digital Health & Wellness</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-section">
+                                <h4>Challenge</h4>
+                                <p>Deliver personalized meditation recommendations at scale for both new and existing users to maximize engagement and user satisfaction.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Solution</h4>
+                                <p>Implemented hybrid recommendation system: SVD collaborative filtering for new users and Random Forest content-based filtering for existing users. Deployed as serverless REST APIs on AWS Lambda for real-time inference.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Impact</h4>
+                                <p>Enabled near real-time personalized recommendations, improving content discovery and user retention for the wellness audio streaming platform.</p>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Random Forest</span>
+                            <span>SVD</span>
+                            <span>AWS Lambda</span>
+                            <span>Scikit-Learn</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section" id="contact">
+            <div class="cta-box">
+                <h2>Ready to Transform Your Business?</h2>
+                <p>Let's discuss how AI can drive measurable impact for your organization.</p>
+                <div class="cta-buttons">
+                    <a href="mailto:danvargg@gmail.com" class="btn btn-primary">Schedule a Consultation</a>
+                    <a href="https://linkedin.com/in/danvargg" class="btn btn-secondary">Connect on LinkedIn</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/danvargg" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com/in/danvargg" target="_blank">LinkedIn</a>
+                    <a href="mailto:danvargg@gmail.com">Email</a>
+                </div>
+                <div class="copyright">
+                    © 2024 Daniel Vargas. AI Solutions Architect based in Montreal.
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
