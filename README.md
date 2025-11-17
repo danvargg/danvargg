@@ -2,12 +2,11 @@
 
 I'm Daniel Vargas.
 
-- 🔭 I’m currently looking for new opportunities
 - 🤝 I’m available for freelancing
 - 🌱 I’m currently learning IoT and Generative AI 
 - 💬 Ask me about Machine Learning Engineering, MLOps, Computer Vision and Natural Language Processing (NLP)
 - 📫 Feel free to reach out **<danvargg@gmail.com>** or [LinkedIn: Daniel Vargas](https://www.linkedin.com/in/danvargg/)
-- 📝 Check out my projects: [Machine Larning and AI](https://github.com/danvargg/danvargg/blob/main/docs/projects/README.md) | [Game Development](https://github.com/danvargg/danvargg/blob/main/docs/projects/video_games/README.md) | [CAD](https://github.com/danvargg/danvargg/tree/main/docs/projects/cad)
+- 📝 Check out my projects: [Machine Larning and AI](https://danvargg.github.io/danvargg/)
 
 ### My Tech Stack
 
