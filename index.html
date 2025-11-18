@@ -523,8 +523,20 @@
             background: rgba(15, 23, 42, 0.6);
             border: 1px solid rgba(99, 102, 241, 0.2);
             border-radius: 16px;
-            padding: 2.5rem;
+            padding: 0;
             transition: all 0.3s;
+            overflow: hidden;
+        }
+
+        .project-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .project-content-wrapper {
+            padding: 2.5rem;
         }
 
         .project-card:hover {
@@ -748,14 +760,14 @@
                         <h4>AI/ML & Deep Learning</h4>
                         <div class="tech-tags">
                             <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/openai.svg" alt="OpenAI" class="tech-icon-img tech-icon-filter" title="OpenAI"></span>
-<!--                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/anthropic.svg" alt="Claude" class="tech-icon-img tech-icon-filter" title="Claude"></span>-->
-<!--                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/googlegemini.svg" alt="Gemini" class="tech-icon-img tech-icon-filter" title="Gemini"></span>-->
+                            <span class="tech-tag"><img src="https://cdn.simpleicons.org/anthropic/white" alt="Claude" class="tech-icon-img" title="Claude"></span>
+                            <span class="tech-tag"><img src="https://cdn.simpleicons.org/googlegemini/white" alt="Gemini" class="tech-icon-img" title="Gemini"></span>
                             <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/scikitlearn.svg" alt="Scikit-Learn" class="tech-icon-img tech-icon-filter" title="Scikit-Learn"></span>
 <!--                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/xgboost.svg" alt="XGBoost" class="tech-icon-img tech-icon-filter" title="XGBoost"></span>-->
                             <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/keras.svg" alt="Keras" class="tech-icon-img tech-icon-filter" title="Keras"></span>
                             <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/tensorflow.svg" alt="TensorFlow" class="tech-icon-img tech-icon-filter" title="TensorFlow"></span>
                             <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/pytorch.svg" alt="PyTorch" class="tech-icon-img tech-icon-filter" title="PyTorch"></span>
-<!--                            <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/huggingface.svg" alt="Hugging Face" class="tech-icon-img tech-icon-filter" title="Hugging Face"></span>-->
+                            <span class="tech-tag"><img src="https://cdn.simpleicons.org/huggingface/white" alt="Hugging Face" class="tech-icon-img" title="Hugging Face"></span>
                             <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/mlflow.svg" alt="MLFlow" class="tech-icon-img tech-icon-filter" title="MLFlow"></span>
                         </div>
                     </div>
@@ -778,7 +790,7 @@
                             <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/github.svg" alt="GitHub" class="tech-icon-img tech-icon-filter" title="GitHub"></span>
                             <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/githubactions.svg" alt="GitHub Actions" class="tech-icon-img tech-icon-filter" title="GitHub Actions"></span>
                             <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/docker.svg" alt="Docker" class="tech-icon-img tech-icon-filter" title="Docker"></span>
-                            <span class="tech-tag"><img src="https://app.unpkg.com/simple-icons@9.21.0/files/icons/amazonaws.svg" alt="AWS" class="tech-icon-img tech-icon-filter" title="AWS"></span>
+                            <span class="tech-tag"><img src="https://app.unpkg.com/simple-icons@9.21.0/files/icons/amazonaws.svg" alt="AWS" class="tech-icon-img" title="AWS"></span>
                             <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/googlecloud.svg" alt="GCP" class="tech-icon-img tech-icon-filter" title="GCP"></span>
                             <span class="tech-tag"><img src="https://unpkg.com/simple-icons@v9/icons/microsoftazure.svg" alt="Azure" class="tech-icon-img tech-icon-filter" title="Azure"></span>
                         </div>
@@ -910,6 +922,8 @@
                 <div class="projects-list">
                     <!-- Project 1: ISO Compliance -->
                     <div class="project-card">
+                        <img src="https://raw.githubusercontent.com/danvargg/audit-agent/main/img/ui.png" alt="AI-Powered ISO Compliance Auditor" class="project-image">
+                        <div class="project-content-wrapper">
                         <div class="project-header">
                             <div>
                                 <span class="project-tag">Generative AI</span>
@@ -938,10 +952,12 @@
                             <span><img src="https://unpkg.com/simple-icons@v9/icons/python.svg" alt="Python" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Python</span>
                             <span>PyPDF2</span>
                         </div>
+                        </div>
                     </div>
 
                     <!-- Project 2: Invoice Processor -->
                     <div class="project-card">
+                        <div class="project-content-wrapper">
                         <div class="project-header">
                             <div>
                                 <span class="project-tag">Document AI</span>
@@ -970,10 +986,13 @@
                             <span>LLMs</span>
                             <span>Function Calling</span>
                         </div>
+                        </div>
                     </div>
 
                     <!-- Project 3: Activity Recognition -->
                     <div class="project-card">
+                        <img src="https://raw.githubusercontent.com/danvargg/danvargg/main/docs/projects/fc/images/012_boxing_sensor_tracking.jpg" alt="Real-Time Activity Recognition System" class="project-image">
+                        <div class="project-content-wrapper">
                         <div class="project-header">
                             <div>
                                 <span class="project-tag">Edge AI</span>
@@ -1002,12 +1021,15 @@
                             <span><img src="https://unpkg.com/simple-icons@v9/icons/tensorflow.svg" alt="TFLite" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">TFLite</span>
                             <span>CNN</span>
                             <span>VAE</span>
-                            <span><img src="https://app.unpkg.com/simple-icons@9.21.0/files/icons/amazonaws.svg" alt="AWS" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">AWS EC2</span>
+                            <span><img src="https://app.unpkg.com/simple-icons@9.21.0/files/icons/amazonaws.svg" alt="AWS" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">AWS</span>
+                        </div>
                         </div>
                     </div>
 
                     <!-- Project 4: CoreML Contribution -->
                     <div class="project-card">
+                        <img src="https://raw.githubusercontent.com/danvargg/danvargg/main/docs/projects/coremltools/coreml.png" alt="CoreML Tools Platform Enhancement" class="project-image">
+                        <div class="project-content-wrapper">
                         <div class="project-header">
                             <div>
                                 <span class="project-tag">Open Source</span>
@@ -1031,11 +1053,50 @@
                             <span><img src="https://unpkg.com/simple-icons@v9/icons/python.svg" alt="Python" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Python</span>
                             <span>Model Serialization</span>
                         </div>
-                        <a href="https://github.com/apple/coremltools/pull/1707" class="project-link" target="_blank">View Pull Request →</a>
+                        </div>
                     </div>
 
-                    <!-- Project 5: Eye Gaze Tracking -->
+                    <!-- Project 5: MDA Training Program -->
                     <div class="project-card">
+                        <div class="project-content-wrapper">
+                        <div class="project-header">
+                            <div>
+                                <span class="project-tag">Data Science</span>
+                                <span class="project-tag">Training & Mentorship</span>
+                                <span class="project-tag-client">Analytics</span>
+                                <h3>Enterprise Data Science Training Program</h3>
+                                <p class="project-industry">Master Data Analysis</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-section">
+                                <h4>Challenge</h4>
+                                <p>A team of 9 data analysts required comprehensive upskilling in modern data science methodologies, from foundational programming to production model deployment, to meet evolving business demands and technical requirements.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Solution</h4>
+                                <p>Designed and delivered an end-to-end data science curriculum covering Python fundamentals, statistical foundations, machine learning algorithms, and Azure ML deployment. Developed all program materials including code, presentations, assignments, and hands-on projects with full Azure infrastructure setup for practical sessions.</p>
+                            </div>
+                            <div class="project-section">
+                                <h4>Impact</h4>
+                                <p>Achieved significant increase in team technical proficiency across data manipulation, ML algorithms, and cloud deployment. Enabled analysts to independently execute complete data science projects from problem framing through model serving, directly improving business outcomes and team capability.</p>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/python.svg" alt="Python" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Python</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/pandas.svg" alt="Pandas" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Pandas</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/scikitlearn.svg" alt="Scikit-Learn" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Scikit-Learn</span>
+                            <span><img src="https://unpkg.com/simple-icons@v9/icons/microsoftazure.svg" alt="Azure ML" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Azure ML</span>
+                            <span>NumPy</span>
+                            <span>XGBoost</span>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: Eye Gaze Tracking -->
+                    <div class="project-card">
+                        <img src="https://raw.githubusercontent.com/danvargg/danvargg/main/docs/projects/pigio/images/data_flow.png" alt="Medical Eye-Gaze Communication System" class="project-image">
+                        <div class="project-content-wrapper">
                         <div class="project-header">
                             <div>
                                 <span class="project-tag">Medical AI</span>
@@ -1065,10 +1126,12 @@
                             <span><img src="https://unpkg.com/simple-icons@v9/icons/opencv.svg" alt="Computer Vision" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Computer Vision</span>
                             <span>iOS</span>
                         </div>
+                        </div>
                     </div>
 
-                    <!-- Project 6: Requirements Similarity -->
+                    <!-- Project 7: Requirements Similarity -->
                     <div class="project-card">
+                        <div class="project-content-wrapper">
                         <div class="project-header">
                             <div>
                                 <span class="project-tag">NLP</span>
@@ -1098,10 +1161,13 @@
                             <span>NLTK</span>
                             <span><img src="https://unpkg.com/simple-icons@v9/icons/python.svg" alt="Python" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Python</span>
                         </div>
+                        </div>
                     </div>
 
-                    <!-- Project 7: Recommendation System -->
+                    <!-- Project 8: Recommendation System -->
                     <div class="project-card">
+                        <img src="https://raw.githubusercontent.com/danvargg/danvargg/main/docs/projects/auraML/auraml.png" alt="Personalized Wellness Recommendation Engine" class="project-image">
+                        <div class="project-content-wrapper">
                         <div class="project-header">
                             <div>
                                 <span class="project-tag">Machine Learning</span>
@@ -1128,8 +1194,9 @@
                         <div class="project-tech">
                             <span><img src="https://unpkg.com/simple-icons@v9/icons/scikitlearn.svg" alt="Scikit-Learn" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Random Forest</span>
                             <span>SVD</span>
-                            <span><img src="https://app.unpkg.com/simple-icons@9.21.0/files/icons/amazonaws.svg" alt="AWS" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">AWS Lambda</span>
+                            <span><img src="https://app.unpkg.com/simple-icons@9.21.0/files/icons/amazonaws.svg" alt="AWS" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">AWS</span>
                             <span><img src="https://unpkg.com/simple-icons@v9/icons/scikitlearn.svg" alt="Scikit-Learn" class="tech-icon-filter" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">Scikit-Learn</span>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -1142,7 +1209,7 @@
                 <h2>Ready to Transform Your Business?</h2>
                 <p>Let's discuss how AI can drive measurable impact for your organization.</p>
                 <div class="cta-buttons">
-                    <a href="mailto:danvargg@gmail.com" class="btn btn-primary">Schedule a Consultation</a>
+                    <a href="/cdn-cgi/l/email-protection#aacecbc4dccbd8cdcdeacdc7cbc3c684c9c5c7" class="btn btn-primary">Schedule a Consultation</a>
                     <a href="https://linkedin.com/in/danvargg" class="btn btn-secondary">Connect on LinkedIn</a>
                 </div>
             </div>
@@ -1154,13 +1221,7 @@
                 <div class="social-links">
                     <a href="https://github.com/danvargg" target="_blank">GitHub</a>
                     <a href="https://linkedin.com/in/danvargg" target="_blank">LinkedIn</a>
-                    <a href="mailto:danvargg@gmail.com">Email</a>
+                    <a href="/cdn-cgi/l/email-protection#bedadfd0c8dfccd9d9fed9d3dfd7d290ddd1d3">Email</a>
                 </div>
                 <div class="copyright">
                     © 2025 Daniel Vargas. AI Solutions Architect based in Montreal.
-                </div>
-            </div>
-        </footer>
-    </div>
-</body>
-</html>
