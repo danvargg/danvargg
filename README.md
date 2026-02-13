@@ -2,11 +2,9 @@
 
 I'm Daniel Vargas.
 
-- 🤝 I’m available for freelancing
-- 🌱 I’m currently learning IoT and Generative AI 
+- 🌱 I’m currently learning AI Governance, ioT and Autonomous Systema 
 - 💬 Ask me about Machine Learning Engineering, MLOps, Computer Vision and Natural Language Processing (NLP)
 - 📫 Feel free to reach out **<danvargg@gmail.com>** or [LinkedIn: Daniel Vargas](https://www.linkedin.com/in/danvargg/)
-- 📝 Check out my projects: [Machine Larning and AI](https://danvargg.github.io/danvargg/)
 
 ### My Tech Stack
 
@@ -35,7 +33,3 @@ I'm Daniel Vargas.
 ![Pytorch](https://img.shields.io/badge/-Pytorch-000000?style=flat&logo=Pytorch)
 ![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-black)
 ![MLFlow](https://img.shields.io/badge/-MLFlow-000000?style=flat&logo=mlflow)
-
-### My experience
-
-You can find my full resume [here](https://github.com/danvargg/danvargg/blob/main/docs/Daniel_Vargas_CV_2024.docx).
