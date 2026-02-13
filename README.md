@@ -5,6 +5,7 @@ I'm Daniel Vargas.
 - 🌱 I’m currently learning AI Governance, ioT and Autonomous Systema 
 - 💬 Ask me about Machine Learning Engineering, MLOps, Computer Vision and Natural Language Processing (NLP)
 - 📫 Feel free to reach out **<danvargg@gmail.com>** or [LinkedIn: Daniel Vargas](https://www.linkedin.com/in/danvargg/)
+- 📝 Check out some of my projects: [Machine Larning and GenAI](https://github.com/danvargg/portfolio/blob/main/README.md)
 
 ### My Tech Stack
 
