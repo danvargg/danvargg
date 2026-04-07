@@ -11,381 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --bg: #F5F5F7;
-            --text-primary: #1a1a1a;
-            --text-secondary: #555555;
-            --text-muted: #888888;
-            --accent: #1a1a1a;
-            --border: #e0e0e0;
-            --card-bg: #ffffff;
-            --section-alt: #fafafa;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
-            background: var(--bg);
-            color: var(--text-primary);
-            line-height: 1.6;
-            font-size: 16px;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-
-        /* Navigation */
-        nav {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            padding: 1.5rem 0;
-            z-index: 100;
-            background: rgba(245, 245, 247, 0.9);
-            backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--border);
-        }
-
-        .nav-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-
-        .logo {
-            font-size: 1.125rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            letter-spacing: -0.02em;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2.5rem;
-        }
-
-        .nav-links a {
-            font-size: 0.875rem;
-            font-weight: 500;
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        .nav-links a:hover {
-            color: var(--text-primary);
-        }
-
-
-        .btn {
-            padding: 1rem 2rem;
-            border-radius: 8px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.2s;
-            font-size: 0.938rem;
-            cursor: pointer;
-            border: none;
-            display: inline-block;
-        }
-
-        .btn-primary {
-            background: var(--text-primary);
-            color: var(--bg);
-        }
-
-        .btn-primary:hover {
-            background: #333;
-            transform: translateY(-1px);
-        }
-
-        .btn-secondary {
-            background: transparent;
-            color: var(--text-primary);
-            border: 1.5px solid var(--text-primary);
-        }
-
-        .btn-secondary:hover {
-            background: var(--text-primary);
-            color: var(--bg);
-        }
-
-        /* Section Styles */
-        section {
-            padding: 6rem 0;
-        }
-
-        .section-label {
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin-bottom: 1rem;
-        }
-
-        h2 {
-            font-size: clamp(2rem, 4vw, 2.75rem);
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            margin-bottom: 1rem;
-            color: var(--text-primary);
-        }
-
-        .section-description {
-            font-size: 1.125rem;
-            color: var(--text-secondary);
-            max-width: 600px;
-            line-height: 1.7;
-        }
-
-        /* Bio Section */
-        .bio {
-            padding: 10rem 0 7rem;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .bio-layout {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 6rem;
-            align-items: start;
-        }
-
-        .bio-identity {
-            position: sticky;
-            top: 6rem;
-        }
-
-        .bio-name {
-            font-size: clamp(2rem, 3.5vw, 2.75rem);
-            font-weight: 800;
-            letter-spacing: -0.03em;
-            line-height: 1.1;
-            margin-bottom: 0.5rem;
-        }
-
-        .bio-title {
-            font-size: 1rem;
-            font-weight: 500;
-            color: var(--text-secondary);
-            margin-bottom: 0.375rem;
-        }
-
-        .bio-location {
-            font-size: 0.875rem;
-            color: var(--text-muted);
-            margin-bottom: 2.5rem;
-        }
-
-        .bio-links {
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-        }
-
-        .bio-links a {
-            font-size: 0.875rem;
-            font-weight: 500;
-            color: var(--text-secondary);
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.4rem;
-            transition: color 0.2s;
-        }
-
-        .bio-links a:hover {
-            color: var(--text-primary);
-        }
-
-        .bio-cv-link {
-            font-weight: 600 !important;
-            color: var(--text-primary) !important;
-        }
-
-        .bio-text {
-            font-size: 1.125rem;
-            color: var(--text-secondary);
-            line-height: 1.85;
-            padding-top: 0.25rem;
-            text-align: justify;
-        }
-
-        /* Case Studies Section */
-        .case-studies {
-            padding: 8rem 0;
-        }
-
-        .case-studies-header {
-            margin-bottom: 4rem;
-        }
-
-        .cases-grid {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        }
-
-        .case-card {
-            display: grid;
-            grid-template-columns: 1fr 2fr 1.5fr;
-            gap: 2rem;
-            padding: 2.5rem;
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            transition: box-shadow 0.3s, border-color 0.3s;
-        }
-
-        .case-card:hover {
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
-            border-color: var(--text-primary);
-        }
-
-        .case-company {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .case-industry {
-            font-size: 1.125rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            letter-spacing: -0.01em;
-        }
-
-        .wip-badge {
-            display: inline-block;
-            font-size: 0.688rem;
-            font-weight: 600;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            border: 1px solid var(--border);
-            border-radius: 4px;
-            padding: 0.2rem 0.5rem;
-            margin-top: 0.5rem;
-            width: fit-content;
-        }
-
-        .case-problem-solution {
-            display: flex;
-            flex-direction: column;
-            gap: 1.25rem;
-        }
-
-        .case-problem-solution h4 {
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            margin-bottom: 0.375rem;
-        }
-
-        .case-problem-solution p {
-            font-size: 0.938rem;
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        .case-impact {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .case-impact h4 {
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            margin-bottom: 0.5rem;
-        }
-
-        .impact-metric {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            letter-spacing: -0.02em;
-        }
-
-        .impact-desc {
-            font-size: 0.875rem;
-            color: var(--text-secondary);
-            margin-top: 0.25rem;
-        }
-
-        /* Footer */
-        footer {
-            padding: 3rem 0;
-            border-top: 1px solid var(--border);
-        }
-
-        .copyright {
-            color: var(--text-muted);
-            font-size: 0.813rem;
-            text-align: center;
-        }
-
-        /* Responsive */
-        @media (max-width: 968px) {
-            .bio-layout {
-                grid-template-columns: 1fr;
-                gap: 3rem;
-            }
-
-            .bio-identity {
-                position: static;
-            }
-
-            .case-card {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
-
-            .nav-links {
-                display: none;
-            }
-
-        }
-
-        @media (max-width: 640px) {
-            section {
-                padding: 4rem 0;
-            }
-
-            .container {
-                padding: 0 1.5rem;
-            }
-
-
-            .case-card {
-                padding: 1.5rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -430,6 +56,7 @@
 
             <div class="cases-grid">
                 <!-- Civil Engineering (WIP) -->
+                <a href="projects/civil-engineering.html" class="case-card-link">
                 <div class="case-card">
                     <div class="case-company">
                         <div class="case-industry">Civil Engineering</div>
@@ -451,8 +78,10 @@
                         <div class="impact-desc">Active development</div>
                     </div>
                 </div>
+                </a>
 
                 <!-- Fashion Tech -->
+                <a href="projects/fashion-tech.html" class="case-card-link">
                 <div class="case-card">
                     <div class="case-company">
                         <div class="case-industry">Fashion Tech</div>
@@ -473,8 +102,10 @@
                         <div class="impact-desc">Production + reduced return rates</div>
                     </div>
                 </div>
+                </a>
 
                 <!-- Connected Fitness -->
+                <a href="projects/connected-fitness.html" class="case-card-link">
                 <div class="case-card">
                     <div class="case-company">
                         <div class="case-industry">Connected Fitness</div>
@@ -495,8 +126,10 @@
                         <div class="impact-desc">On-device for 20k+ active users</div>
                     </div>
                 </div>
+                </a>
 
                 <!-- MedTech -->
+                <a href="projects/medtech.html" class="case-card-link">
                 <div class="case-card">
                     <div class="case-company">
                         <div class="case-industry">MedTech</div>
@@ -517,8 +150,10 @@
                         <div class="impact-desc">Deployment time: hours → minutes</div>
                     </div>
                 </div>
+                </a>
 
                 <!-- Banking -->
+                <a href="projects/banking.html" class="case-card-link">
                 <div class="case-card">
                     <div class="case-company">
                         <div class="case-industry">Banking</div>
@@ -539,8 +174,10 @@
                         <div class="impact-desc">Upskilled in Python, SQL & Azure</div>
                     </div>
                 </div>
+                </a>
 
                 <!-- Wellness -->
+                <a href="projects/wellness.html" class="case-card-link">
                 <div class="case-card">
                     <div class="case-company">
                         <div class="case-industry">Wellness</div>
@@ -561,6 +198,7 @@
                         <div class="impact-desc">Driving high user retention</div>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
     </section>
