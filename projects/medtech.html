@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedTech — Daniel Vargas</title>
+    <meta name="description"
+        content="Eye-tracking system enabling paralyzed and intubated patients to communicate and control devices through gaze.">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%231a1a1a'/><text x='50' y='68' font-family='Inter,Helvetica,sans-serif' font-size='48' font-weight='600' fill='%23F5F5F7' text-anchor='middle'>DV</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-content">
+            <a href="../index.html" class="logo">Daniel Vargas</a>
+            <div class="nav-links">
+                <a href="../index.html#work">← All Work</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="project-header">
+        <div class="container">
+            <div class="section-label">Case Study</div>
+            <div class="case-industry">MedTech</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="project-layout">
+            <div class="project-sidebar">
+                <div class="project-sidebar-block">
+                    <h4>Problem</h4>
+                    <p>Paralyzed and intubated patients in intensive care have no reliable way to communicate or
+                        interact with their environment.</p>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Solution</h4>
+                    <p>An eye-tracking system using computer vision that lets patients communicate and control devices
+                        through gaze alone.</p>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Impact</h4>
+                    <div class="impact-metric">HIPAA-Compliant</div>
+                    <div class="impact-desc">On-device real-time recognition</div>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Stack</h4>
+                    <p>Python · TensorFlow · Keras · CoreML · coremltools · OpenCV · dlib · mediapipe · ARKit · AWS EC2
+                        · Weights & Biases</p>
+                </div>
+            </div>
+
+            <div class="project-narrative">
+                <div>
+                    <h3>Context</h3>
+                    <p>The client builds Software-as-a-Medical-Device (SaMD) applications using their patented
+                        eye-tracking technology on standard iPad hardware. The engagement covered two phases: a
+                        communication tool for ICU patients, followed by a clinical monitoring system for neurological
+                        disorders.</p>
+                </div>
+                <div>
+                    <h3>Phase 1: Gaze-to-Speech</h3>
+                    <p>The core model was a CNN taking dual
+                        eye crops and facial landmarks as input and predicting gaze coordinates on
+                        screen. Trained using data augmentation to improve robustness
+                        to clinical environment variability.
+                        Post-training, the model was converted to CoreML with 16-bit weight quantization for on-device
+                        inference.</p>
+                    <p>At deployment, a short per-user calibration sequence fine-tunes a lightweight regressor on top of
+                        the frozen feature extractor, which is pushed back to the device as a CoreML model -
+                        personalizing predictions without a full retrain cycle.</p>
+                </div>
+                <div>
+                    <h3>Phase 2: MS Monitoring</h3>
+                    <p>Phase 2 extended the system for recording eye movements during visual tests to evaluate and
+                        monitor Multiple Sclerosis progression. Training used synthetically generated video data to
+                        cover stimuli patterns. The per-user calibration pattern from
+                        Phase 1 was carried forward.</p>
+                </div>
+                <div>
+                    <h3>Outcome</h3>
+                    <p>The solution is in active use. Phase 1 enables ICU
+                        patients to communicate through gaze alone. Phase 2 provides clinicians with precise eye
+                        movement signals for neurological evaluation and longitudinal monitoring of MS patients.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                © 2026 Daniel Vargas. AI Engineering Leader based in Montreal.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
