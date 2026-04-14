@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Tech — Daniel Vargas</title>
+    <meta name="description"
+        content="Computer vision scan-to-pattern engine and fit prediction system for automated made-to-measure garment production.">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%231a1a1a'/><text x='50' y='68' font-family='Inter,Helvetica,sans-serif' font-size='48' font-weight='600' fill='%23F5F5F7' text-anchor='middle'>DV</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-content">
+            <a href="../index.html" class="logo">Daniel Vargas</a>
+            <div class="nav-links">
+                <a href="../index.html#work">← All Work</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="project-header">
+        <div class="container">
+            <div class="section-label">Case Study</div>
+            <div class="case-industry">Fashion Tech</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="project-layout">
+            <div class="project-sidebar">
+                <div class="project-sidebar-block">
+                    <h4>Problem</h4>
+                    <p>Made-to-measure garment production relies on manual pattern-making and fitting, making
+                        personalized fit impossible to scale and keeping return rates high.</p>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Solution</h4>
+                    <p>A body scan-to-pattern engine paired with a fit prediction model that automates the full
+                        measurement-to-production pipeline.</p>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Impact</h4>
+                    <div class="impact-metric">Automated M2M</div>
+                    <div class="impact-desc">Production + reduced return rates</div>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Stack</h4>
+                    <p>Python · TensorFlow · Scikit-Learn · CAD tooling</p>
+                </div>
+            </div>
+
+            <div class="project-narrative">
+                <div>
+                    <h3>Context</h3>
+                    <p>The client produces made-to-measure garments. The production pipeline required manually measuring
+                        each customer, manually deriving garment pattern adjustments for a perfect fit, and handing the
+                        patterns off to manufacturing - a process that couldn't scale.</p>
+                </div>
+                <div>
+                    <h3>The solution</h3>
+                    <p>A POC pipeline built around structured body measurements extracted from a 3D body scan. A
+                        regression model takes those measurements as input and predicts the optimal garment measurements
+                        for a perfect fit. The predicted measurements are then fed into a parametric engine that
+                        generates the garment patterns as CAD files ready for manufacturing.</p>
+                </div>
+                <div>
+                    <h3>Outcome</h3>
+                    <p>The POC demonstrated an end-to-end automated pipeline from body scan to production-ready CAD
+                        pattern, validating that the manual measurement derivation and pattern-making steps could be
+                        replaced with ML-driven automation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                © 2026 Daniel Vargas. AI Engineering Leader based in Montreal.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
