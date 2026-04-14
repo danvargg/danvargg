@@ -413,6 +413,15 @@ footer {
     text-align: justify;
 }
 
+.project-narrative code {
+    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+    font-size: 0.875em;
+    background: var(--border);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    color: var(--text-primary);
+}
+
 /* Responsive */
 @media (max-width: 968px) {
     .bio-layout {
