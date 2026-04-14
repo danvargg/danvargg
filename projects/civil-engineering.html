@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civil Engineering — Daniel Vargas</title>
+    <meta name="description"
+        content="Structured data extraction pipeline for civil engineering documents using the Claude API.">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%231a1a1a'/><text x='50' y='68' font-family='Inter,Helvetica,sans-serif' font-size='48' font-weight='600' fill='%23F5F5F7' text-anchor='middle'>DV</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-content">
+            <a href="../index.html" class="logo">Daniel Vargas</a>
+            <div class="nav-links">
+                <a href="../index.html#work">← All Work</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="project-header">
+        <div class="container">
+            <div class="section-label">Case Study</div>
+            <div class="case-industry">Civil Engineering</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="project-layout">
+            <div class="project-sidebar">
+                <div class="project-sidebar-block">
+                    <h4>Problem</h4>
+                    <p>Civil engineers spend hours manually extracting quantities and costs from technical drawings - a
+                        process that is slow, expensive, and prone to error.</p>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Solution</h4>
+                    <p>A structured extraction pipeline that ingests civil engineering PDFs and automatically generates
+                        calculations, material quantities, and full costing reports.</p>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Status</h4>
+                    <div class="impact-metric">In Progress</div>
+                    <div class="impact-desc">Active development</div>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Stack</h4>
+                    <p>Python · Claude API · tool_use · Message Batches API · Pydantic</p>
+                </div>
+            </div>
+
+            <div class="project-narrative">
+                <div>
+                    <h3>Context</h3>
+                    <p>Civil engineering projects generate large volumes of documentation (technical drawings,
+                        specifications, and reports) that contain the data needed to estimate material quantities and
+                        project costs. Today this is largely a manual process: engineers page through PDFs, extract
+                        figures by hand, and enter them into spreadsheets. It is slow, inconsistent across teams, and
+                        expensive at the scale of large infrastructure projects.</p>
+                </div>
+                <div>
+                    <h3>The solution</h3>
+                    <p>The core is a structured extraction pipeline using the Claude API with <code>tool_use</code>,
+                        which enforces a JSON schema the model populates field by field. The schema uses required and
+                        optional fields, and nullable fields for information that may not appear in every document.</p>
+                    <p>A validation layer catches format mismatches before they propagate downstream. When
+                        validation fails, the system sends a follow-up request to Claude that includes the original
+                        document, the failed extraction, and the specific error - giving the model the context to
+                        self-correct. The retry logic distinguishes between recoverable failures (format issues the
+                        model can fix) and unrecoverable ones (information genuinely absent from the source).</p>
+                    <p> Field-level confidence scores route low-confidence extractions to a human review queue, with
+                        accuracy tracked by document type and field to surface systematic weak points.
+                    </p>
+                </div>
+                <div>
+                    <h3>Where It Stands</h3>
+                    <p>Currently in the POC phase: gathering representative PDF examples, iterating on the JSON
+                        extraction schema, and validating the pipeline against real documents before moving to
+                        batch-scale processing.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                © 2026 Daniel Vargas. AI Engineering Leader based in Montreal.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
