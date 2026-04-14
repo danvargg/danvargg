@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connected Fitness — Daniel Vargas</title>
+    <meta name="description"
+        content="On-device edge ML pipeline for real-time punch and kick tracking on consumer boxing hardware.">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%231a1a1a'/><text x='50' y='68' font-family='Inter,Helvetica,sans-serif' font-size='48' font-weight='600' fill='%23F5F5F7' text-anchor='middle'>DV</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-content">
+            <a href="../index.html" class="logo">Daniel Vargas</a>
+            <div class="nav-links">
+                <a href="../index.html#work">← All Work</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="project-header">
+        <div class="container">
+            <div class="section-label">Case Study</div>
+            <div class="case-industry">Connected Fitness</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="project-layout">
+            <div class="project-sidebar">
+                <div class="project-sidebar-block">
+                    <h4>Problem</h4>
+                    <p>Consumer boxing hardware couldn't accurately track punch metrics in real time without offloading
+                        computation to a remote server.</p>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Solution</h4>
+                    <p>An on-device edge ML pipeline that classifies motion sensor data in real time, running entirely
+                        on Android with no network dependency.</p>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Impact</h4>
+                    <div class="impact-metric">&gt;95% Accuracy</div>
+                    <div class="impact-desc">On-device real-time predictions</div>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Stack</h4>
+                    <p>Python · TensorFlow · Keras · TensorFlow Lite · NumPy · AWS EC2 · Android</p>
+                </div>
+            </div>
+
+            <div class="project-narrative">
+                <div>
+                    <h3>Context</h3>
+                    <p>The client makes a connected home boxing system with wrist and ankle wearables that capture IMU
+                        sensor data (accelerometer and gyroscope). The product's core value is real-time punch and kick
+                        analytics. The pipeline had to classify movements entirely on the Android edge device, with no
+                        server round-trip during a workout.</p>
+                </div>
+                <div>
+                    <h3>The solution</h3>
+                    <p>The core model is a CNN trained on raw IMU time-series data, classifying each movement into a
+                        punch or kick type. Collecting and manually labeling enough representative samples to cover the
+                        variability in user technique was the main constraint. A VAE was trained on the existing
+                        dataset to generate synthetic samples, expanding the training set without additional manual
+                        labeling effort.</p>
+                    <p>Post-training, the model was converted to TensorFlow Lite and weight-quantized to 16-bit floating
+                        point, then deployed to the Android device where it runs via the TFLite runtime entirely
+                        on-device.</p>
+                </div>
+                <div>
+                    <h3>Outcome</h3>
+                    <p>The system classifies movements in real time at over 95% accuracy with no network dependency
+                        during workouts. Per-rep analytics became a core differentiator of the product.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                © 2026 Daniel Vargas. AI Engineering Leader based in Montreal.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
