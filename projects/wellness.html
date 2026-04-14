@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthTech — Daniel Vargas</title>
+    <meta name="description"
+        content="Personalized recommendation engine for a wellness platform, matching millions of users to content based on behavioral signals.">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%231a1a1a'/><text x='50' y='68' font-family='Inter,Helvetica,sans-serif' font-size='48' font-weight='600' fill='%23F5F5F7' text-anchor='middle'>DV</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-content">
+            <a href="../index.html" class="logo">Daniel Vargas</a>
+            <div class="nav-links">
+                <a href="../index.html#work">← All Work</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="project-header">
+        <div class="container">
+            <div class="section-label">Case Study</div>
+            <div class="case-industry">HealthTech</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="project-layout">
+            <div class="project-sidebar">
+                <div class="project-sidebar-block">
+                    <h4>Problem</h4>
+                    <p>A wellness platform was failing to surface relevant content, resulting in
+                        low engagement and high churn.</p>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Solution</h4>
+                    <p>A recommendation engine trained on behavioral signals that matches users to content based on
+                        mood, history, and context in real time.</p>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Impact</h4>
+                    <div class="impact-metric">97% Accuracy</div>
+                    <div class="impact-desc">Driving high user retention</div>
+                </div>
+                <div class="project-sidebar-block">
+                    <h4>Stack</h4>
+                    <p>Python · Scikit-Learn · AWS Lambda · REST API</p>
+                </div>
+            </div>
+
+            <div class="project-narrative">
+                <div>
+                    <h3>Context</h3>
+                    <p>The client is an audio streaming platform for meditation and wellness content. As the catalogue
+                        expanded, a generic "most popular" approach to content surfacing was no longer sufficient -
+                        users were cycling off without finding content that resonated with them.</p>
+                </div>
+                <div>
+                    <h3>The solution</h3>
+                    <p>Two models handle two fundamentally different user segments. For new users, a collaborative
+                        filtering model using SVD surfaces content based on population-level similarity patterns. For
+                        returning users, a Random Forest Regressor trained on content attributes and individual
+                        interaction history, validated against KNN before selection for accuracy and interpretability.
+                        Both models are deployed as independent REST APIs on AWS Lambda, each returning a ranked array
+                        of content IDs ordered by predicted rating.</p>
+                </div>
+                <div>
+                    <h3>Outcome</h3>
+                    <p>The system delivers near real-time personalized recommendations for every user session, replacing
+                        a static discovery interface with a ranked feed tailored to each individual. The recommendation
+                        engine achieved 97% accuracy on held-out evaluation sets.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                © 2026 Daniel Vargas. AI Engineering Leader based in Montreal.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
